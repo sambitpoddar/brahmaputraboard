@@ -1,13 +1,13 @@
 {
   "meta": {
-    "last_updated": "2026-03-28T12:33:35.816993+00:00",
+    "last_updated": "2026-03-28T12:41:31.369263+00:00",
     "pages_processed": 81,
     "scraped_at": "2026-03-28T12:24:40Z",
-    "total_faqs": 41,
-    "added_this_run": 0,
-    "skipped_this_run": 0,
+    "total_faqs": 322,
+    "added_this_run": 281,
+    "skipped_this_run": 528,
     "source_site": "https://brahmaputraboard.gov.in",
-    "generator": "Cerebras/gpt-oss-120b"
+    "generator": "Cerebras/qwen-3-235b-a22b-instruct-2507"
   },
   "faqs": [
     {
@@ -296,6 +296,1973 @@
       "answer": "The North-Eastern Council (NEC) is an apex-level body for economic and social development of the North-East. A NEC representative is a part-time member of the Brahmaputra Board, ensuring coordination between the Board's water resource activities and the broader regional development agenda.",
       "source": "seed",
       "added_at": "2026-03-27T00:00:00+00:00"
+    },
+    {
+      "question": "Brahmaputra Board Guwahati address",
+      "answer": "The address of the Brahmaputra Board is Brahmaputra Board, Ministry of Jal Shakti, Government of India, Basistha Guwahati-781029.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "28076227dcc1",
+      "added_at": "2026-03-28T12:41:30.962412+00:00"
+    },
+    {
+      "question": "Full postal address of Brahmaputra Board headquarters",
+      "answer": "The address of the Brahmaputra Board is Brahmaputra Board, Ministry of Jal Shakti, Government of India, Basistha Guwahati-781029.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "4231df6981ea",
+      "added_at": "2026-03-28T12:41:30.962737+00:00"
+    },
+    {
+      "question": "Contact number for Brahmaputra Board Guwahati",
+      "answer": "The phone number of the Brahmaputra Board is 0361-2300128.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "072e8af9216e",
+      "added_at": "2026-03-28T12:41:30.963235+00:00"
+    },
+    {
+      "question": "Brahmaputra Board landline number",
+      "answer": "The phone number of the Brahmaputra Board is 0361-2300128.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "1025fed79e43",
+      "added_at": "2026-03-28T12:41:30.963419+00:00"
+    },
+    {
+      "question": "How to email Brahmaputra Board",
+      "answer": "The official email address of the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "780621a83e1b",
+      "added_at": "2026-03-28T12:41:30.963627+00:00"
+    },
+    {
+      "question": "Email ID of Brahmaputra Board secretary",
+      "answer": "The official email address of the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "b4d6b9df4280",
+      "added_at": "2026-03-28T12:41:30.963855+00:00"
+    },
+    {
+      "question": "Where can I send an official email to Brahmaputra Board?",
+      "answer": "The official email address of the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "b566fffda070",
+      "added_at": "2026-03-28T12:41:30.964108+00:00"
+    },
+    {
+      "question": "Website last updated date for Brahmaputra Board",
+      "answer": "The Brahmaputra Board website was last updated on Saturday, March 28, 2026.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "d64d29efc37d",
+      "added_at": "2026-03-28T12:41:30.964337+00:00"
+    },
+    {
+      "question": "Latest update of Brahmaputra Board site",
+      "answer": "The Brahmaputra Board website was last updated on Saturday, March 28, 2026.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "681391ac222e",
+      "added_at": "2026-03-28T12:41:30.964547+00:00"
+    },
+    {
+      "question": "When did Brahmaputra Board last update its website?",
+      "answer": "The Brahmaputra Board website was last updated on Saturday, March 28, 2026.",
+      "source": "https://brahmaputraboard.gov.in/photo-gallery",
+      "id": "9078be96deb5",
+      "added_at": "2026-03-28T12:41:30.964793+00:00"
+    },
+    {
+      "question": "Is there a landline number for Brahmaputra Board?",
+      "answer": "Yes, the landline number for the Brahmaputra Board is 0361-2300128.",
+      "source": "https://brahmaputraboard.gov.in/project-video-gallery",
+      "id": "ad375580d40f",
+      "added_at": "2026-03-28T12:41:30.965448+00:00"
+    },
+    {
+      "question": "Email ID for contacting Brahmaputra Board",
+      "answer": "The email ID for contacting the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/project-video-gallery",
+      "id": "f5cfd0a1fc13",
+      "added_at": "2026-03-28T12:41:30.965894+00:00"
+    },
+    {
+      "question": "Does Brahmaputra Board have an official email?",
+      "answer": "Yes, the official email address of the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/project-video-gallery",
+      "id": "880d10fe6772",
+      "added_at": "2026-03-28T12:41:30.966138+00:00"
+    },
+    {
+      "question": "Where is the Circle Office of the Brahmaputra Board located?",
+      "answer": "The Circle Office of the Brahmaputra Board is located in Basistha, Guwahati, Assam.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "7575bb323e06",
+      "added_at": "2026-03-28T12:41:30.966410+00:00"
+    },
+    {
+      "question": "In which city and state is the Brahmaputra Board Circle Office situated?",
+      "answer": "The Circle Office of the Brahmaputra Board is situated in Guwahati, Assam.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "4aa2f6b3e3e9",
+      "added_at": "2026-03-28T12:41:30.966752+00:00"
+    },
+    {
+      "question": "Who leads the Headquarter Office of the Brahmaputra Board?",
+      "answer": "The Headquarter Office of the Brahmaputra Board is led by the Superintending Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "7a82ab617002",
+      "added_at": "2026-03-28T12:41:30.967299+00:00"
+    },
+    {
+      "question": "Who is in charge of the Brahmaputra Board headquarters?",
+      "answer": "The Headquarter Office of the Brahmaputra Board is led by the Superintending Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "d5803c657294",
+      "added_at": "2026-03-28T12:41:30.967579+00:00"
+    },
+    {
+      "question": "Name the official heading the Brahmaputra Board headquarters.",
+      "answer": "The Headquarter Office of the Brahmaputra Board is led by the Superintending Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "3e7f7eae2b30",
+      "added_at": "2026-03-28T12:41:30.967866+00:00"
+    },
+    {
+      "question": "How many divisions support the Headquarter Office of the Brahmaputra Board?",
+      "answer": "The Headquarter Office of the Brahmaputra Board is supported by three vital divisions.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "e245340ffb19",
+      "added_at": "2026-03-28T12:41:30.968175+00:00"
+    },
+    {
+      "question": "How many divisions assist the Superintending Engineer at the Brahmaputra Board headquarters?",
+      "answer": "The Headquarter Office of the Brahmaputra Board is supported by three vital divisions.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/hq",
+      "id": "ac6ea5b1458b",
+      "added_at": "2026-03-28T12:41:30.968522+00:00"
+    },
+    {
+      "question": "Which city and location host the Coordination Office of the Brahmaputra Board?",
+      "answer": "The Coordination Office of the Brahmaputra Board is hosted in New Delhi at Sector-10, Dwarka, New Delhi-75.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/dl",
+      "id": "97a2bb83224e",
+      "added_at": "2026-03-28T12:41:30.969564+00:00"
+    },
+    {
+      "question": "What role does the Coordination Office play in the Brahmaputra Board?",
+      "answer": "The Coordination Office plays a role in managing communication, ensuring compliance and documentation, coordinating meetings and updates, and resolving issues between the Brahmaputra Board and the Ministry of Jal Shakti.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/dl",
+      "id": "6cc09e0aa93a",
+      "added_at": "2026-03-28T12:41:30.970138+00:00"
+    },
+    {
+      "question": "How does the Coordination Office support the Brahmaputra Board?",
+      "answer": "The Coordination Office supports the Brahmaputra Board by managing communication with the Ministry of Jal Shakti, coordinating meetings and updates, ensuring regulatory compliance, and resolving any issues that arise.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/dl",
+      "id": "762ce1a6faf3",
+      "added_at": "2026-03-28T12:41:30.970450+00:00"
+    },
+    {
+      "question": "What does NEHARI stand for?",
+      "answer": "NEHARI stands for North Eastern Hydraulic and Allied Research Institute.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "966a9b619145",
+      "added_at": "2026-03-28T12:41:30.970742+00:00"
+    },
+    {
+      "question": "Full form of NEHARI",
+      "answer": "NEHARI stands for North Eastern Hydraulic and Allied Research Institute.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "8759c682c462",
+      "added_at": "2026-03-28T12:41:30.971001+00:00"
+    },
+    {
+      "question": "What is the purpose of NEHARI?",
+      "answer": "The purpose of NEHARI is to carry out hydraulic model studies, geotechnical investigations, and construction material testing related to river valley and water resources projects in the North Eastern Region of India.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "8968bd308384",
+      "added_at": "2026-03-28T12:41:30.971294+00:00"
+    },
+    {
+      "question": "Why was NEHARI established?",
+      "answer": "NEHARI was established because the North Eastern region of India previously lacked adequate facilities for hydraulic model studies, geotechnical investigations, and construction material testing for river valley projects, which were earlier conducted at institutes outside the region.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "a2e8bf2ae1b4",
+      "added_at": "2026-03-28T12:41:30.971560+00:00"
+    },
+    {
+      "question": "Which government body set up NEHARI?",
+      "answer": "NEHARI was set up by the Brahmaputra Board, Ministry of Water Resources, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "523b76618cbb",
+      "added_at": "2026-03-28T12:41:30.971869+00:00"
+    },
+    {
+      "question": "Under which ministry does NEHARI operate?",
+      "answer": "NEHARI operates under the Ministry of Water Resources, River Development and Ganga Rejuvenation, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "d4a330073a92",
+      "added_at": "2026-03-28T12:41:30.972175+00:00"
+    },
+    {
+      "question": "Ministry responsible for NEHARI",
+      "answer": "NEHARI operates under the Ministry of Water Resources, River Development and Ganga Rejuvenation, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "51e738dcbd2a",
+      "added_at": "2026-03-28T12:41:30.972448+00:00"
+    },
+    {
+      "question": "Address of NEHARI",
+      "answer": "NEHARI is located at Rudreswar, on the North Bank of the river Brahmaputra, 25 km from the heart of Guwahati.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "f2e77da2bdee",
+      "added_at": "2026-03-28T12:41:30.972723+00:00"
+    },
+    {
+      "question": "Location of NEHARI institute",
+      "answer": "NEHARI is located at Rudreswar, on the North Bank of the river Brahmaputra, 25 km from the heart of Guwahati.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "088e8bb03560",
+      "added_at": "2026-03-28T12:41:30.973000+00:00"
+    },
+    {
+      "question": "How big is the NEHARI campus?",
+      "answer": "The NEHARI campus covers a total land area of 44 hectares.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "b30948b48673",
+      "added_at": "2026-03-28T12:41:30.973316+00:00"
+    },
+    {
+      "question": "Total land area of NEHARI",
+      "answer": "The NEHARI campus covers a total land area of 44 hectares.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "7e29690ab9a8",
+      "added_at": "2026-03-28T12:41:30.973618+00:00"
+    },
+    {
+      "question": "Size of NEHARI campus",
+      "answer": "The NEHARI campus covers a total land area of 44 hectares.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "6d7acc374a0a",
+      "added_at": "2026-03-28T12:41:30.973909+00:00"
+    },
+    {
+      "question": "When did NEHARI start functioning?",
+      "answer": "NEHARI started functioning from 1996.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "9920dca09748",
+      "added_at": "2026-03-28T12:41:30.974226+00:00"
+    },
+    {
+      "question": "When was NEHARI set up?",
+      "answer": "NEHARI started functioning from 1996.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "aae40a41dae2",
+      "added_at": "2026-03-28T12:41:30.974853+00:00"
+    },
+    {
+      "question": "When was NEHARI inaugurated after renovation?",
+      "answer": "The renovated NEHARI was inaugurated in 2021 by Hon’ble Union Minister of Jal Shakti, Government of India, Shri Gajendra Singh Shekhawat.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "247d568c420d",
+      "added_at": "2026-03-28T12:41:30.975174+00:00"
+    },
+    {
+      "question": "Who inaugurated the renovated NEHARI?",
+      "answer": "The renovated NEHARI was inaugurated in 2021 by Hon’ble Union Minister of Jal Shakti, Government of India, Shri Gajendra Singh Shekhawat.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "af7ed8409cb7",
+      "added_at": "2026-03-28T12:41:30.975484+00:00"
+    },
+    {
+      "question": "What laboratories are available at NEHARI?",
+      "answer": "NEHARI has laboratories for hydraulic, soil, rock, and concrete testing.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "92a9032447f6",
+      "added_at": "2026-03-28T12:41:30.976161+00:00"
+    },
+    {
+      "question": "List of laboratories at NEHARI",
+      "answer": "NEHARI has laboratories for hydraulic, soil, rock, and concrete testing.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "8dbffe7c8c0f",
+      "added_at": "2026-03-28T12:41:30.976471+00:00"
+    },
+    {
+      "question": "What types of testing are done at NEHARI?",
+      "answer": "NEHARI conducts hydraulic, soil, rock, and concrete testing for planning and implementation of water resources projects.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "53a5d1f13866",
+      "added_at": "2026-03-28T12:41:30.976831+00:00"
+    },
+    {
+      "question": "What kind of research is conducted at NEHARI?",
+      "answer": "NEHARI conducts research on basic and applied problems in River Engineering.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "29b826903944",
+      "added_at": "2026-03-28T12:41:30.977183+00:00"
+    },
+    {
+      "question": "Research areas at NEHARI",
+      "answer": "NEHARI conducts research on basic and applied problems in River Engineering.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "bb9795db9a5c",
+      "added_at": "2026-03-28T12:41:30.977480+00:00"
+    },
+    {
+      "question": "What R&D work is done at NEHARI?",
+      "answer": "NEHARI conducts research on basic and applied problems in River Engineering.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "5a62bcf33f89",
+      "added_at": "2026-03-28T12:41:30.977845+00:00"
+    },
+    {
+      "question": "What consultancy services does NEHARI provide?",
+      "answer": "NEHARI provides consultancy services for the development of anti-erosion, flood management, and other river engineering projects.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "491bcc2bd1dc",
+      "added_at": "2026-03-28T12:41:30.978192+00:00"
+    },
+    {
+      "question": "List of consultancy services offered by NEHARI",
+      "answer": "NEHARI provides consultancy services for the development of anti-erosion, flood management, and other river engineering projects.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "1b1dab8f381d",
+      "added_at": "2026-03-28T12:41:30.978548+00:00"
+    },
+    {
+      "question": "Does NEHARI offer training programs?",
+      "answer": "Yes, NEHARI conducts training and capacity building programs for engineers in the Water Resources sector in the North Eastern Region.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "19b6eb78d7a7",
+      "added_at": "2026-03-28T12:41:30.978899+00:00"
+    },
+    {
+      "question": "What training programs are offered by NEHARI?",
+      "answer": "NEHARI offers training and capacity building programs for engineers in the Water Resources sector in the North Eastern Region.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "ae2971bc8d25",
+      "added_at": "2026-03-28T12:41:30.979268+00:00"
+    },
+    {
+      "question": "Training facilities at NEHARI",
+      "answer": "NEHARI offers training and capacity building programs for engineers in the Water Resources sector in the North Eastern Region.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "a72570f9388b",
+      "added_at": "2026-03-28T12:41:30.979588+00:00"
+    },
+    {
+      "question": "Activities carried out at NEHARI",
+      "answer": "The scope of activities at NEHARI includes laboratory investigation (hydraulic, soil, rock, and concrete testing), research & development in river engineering, consultancy services for anti-erosion and flood management projects, and training & capacity building for engineers in the North Eastern Region.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "991c033280f8",
+      "added_at": "2026-03-28T12:41:30.980243+00:00"
+    },
+    {
+      "question": "What can NEHARI do for water resources projects?",
+      "answer": "NEHARI can conduct hydraulic, soil, rock, and concrete testing, carry out research in river engineering, provide consultancy for anti-erosion and flood management projects, and offer training for engineers involved in water resources projects in the North Eastern Region.",
+      "source": "https://brahmaputraboard.gov.in/nehari",
+      "id": "b631ab4f17e7",
+      "added_at": "2026-03-28T12:41:30.980633+00:00"
+    },
+    {
+      "question": "What is the location of the Executive Engineer's office for Brahmaputra Board in Sikkim?",
+      "answer": "The Executive Engineer's office for Brahmaputra Board in Sikkim is located at Smile land, Ranipool, Gangtok, Sikkim 737135.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "efd40cab42f4",
+      "added_at": "2026-03-28T12:41:30.981588+00:00"
+    },
+    {
+      "question": "Who heads the Brahmaputra Board Regional Office in Sikkim?",
+      "answer": "The Brahmaputra Board Regional Office in Sikkim is headed by the Superintending Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "eb23dd9af71f",
+      "added_at": "2026-03-28T12:41:30.982030+00:00"
+    },
+    {
+      "question": "Who manages the Gangtok Division of Brahmaputra Board?",
+      "answer": "The Gangtok Division of Brahmaputra Board is managed by the Executive Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "69a5afc98a4f",
+      "added_at": "2026-03-28T12:41:30.983659+00:00"
+    },
+    {
+      "question": "Name the official in-charge of Gangtok Division, Brahmaputra Board.",
+      "answer": "The Executive Engineer is the official in-charge of Gangtok Division, Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "8b2517e028ca",
+      "added_at": "2026-03-28T12:41:30.984589+00:00"
+    },
+    {
+      "question": "List the main activities of the Brahmaputra Board in Sikkim.",
+      "answer": "The main activities of the Brahmaputra Board in Sikkim include Springshed management and catchment area development in Soreng and Namchi District in Sikkim, and preparation and updation of River Basin Master Plans.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "7629ae65ba44",
+      "added_at": "2026-03-28T12:41:30.985549+00:00"
+    },
+    {
+      "question": "What projects are being implemented by Brahmaputra Board in Sikkim?",
+      "answer": "The projects being implemented by Brahmaputra Board in Sikkim include Springshed management and catchment area development in Soreng and Namchi District in Sikkim, and preparation and updation of River Basin Master Plans.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "f59eff060354",
+      "added_at": "2026-03-28T12:41:30.986027+00:00"
+    },
+    {
+      "question": "What technical activities does the Brahmaputra Board Regional Office in Sikkim carry out?",
+      "answer": "The Brahmaputra Board Regional Office in Sikkim carries out technical activities including the preparation of Detailed Project Reports (DPRs), execution of anti-erosion works, and promoting scientific research for improving water resource management.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "2528a1943f4d",
+      "added_at": "2026-03-28T12:41:30.987042+00:00"
+    },
+    {
+      "question": "What are the technical responsibilities of the Brahmaputra Board in Sikkim?",
+      "answer": "The technical responsibilities of the Brahmaputra Board in Sikkim include the preparation of Detailed Project Reports (DPRs), execution of anti-erosion works, and promoting scientific research for improving water resource management.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "81d04ed9a002",
+      "added_at": "2026-03-28T12:41:30.988012+00:00"
+    },
+    {
+      "question": "How can I contact the Brahmaputra Board Gangtok Division via email?",
+      "answer": "You can contact the Brahmaputra Board Gangtok Division via email at shashwatrai[at]nic[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "5b42e945850d",
+      "added_at": "2026-03-28T12:41:30.989039+00:00"
+    },
+    {
+      "question": "Is there a contact number available for the Gangtok Division of Brahmaputra Board?",
+      "answer": "No, the contact number for the Gangtok Division of Brahmaputra Board is not available (NA).",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "f57a13f17d43",
+      "added_at": "2026-03-28T12:41:30.989862+00:00"
+    },
+    {
+      "question": "What is the phone number of the Brahmaputra Board office in Gangtok?",
+      "answer": "The phone number of the Brahmaputra Board office in Gangtok is not available (NA).",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "86d26dd28a61",
+      "added_at": "2026-03-28T12:41:30.990378+00:00"
+    },
+    {
+      "question": "Does the Brahmaputra Board Gangtok Division have a listed phone number?",
+      "answer": "No, the Brahmaputra Board Gangtok Division does not have a listed phone number; it is marked as NA.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/sk",
+      "id": "f743fbf9b972",
+      "added_at": "2026-03-28T12:41:30.990896+00:00"
+    },
+    {
+      "question": "How can I find the Brahmaputra Board's Guwahati Division office?",
+      "answer": "The address is Office of The Executive Engineer, Guwahati Division, Brahmaputra Board, Basistha, Guwahati-781029, Assam.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "589392545e47",
+      "added_at": "2026-03-28T12:41:30.991857+00:00"
+    },
+    {
+      "question": "What phone number does the Brahmaputra Board's Guwahati Division use?",
+      "answer": "The contact number is 0361-2308589.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "b13f35e751e2",
+      "added_at": "2026-03-28T12:41:30.992589+00:00"
+    },
+    {
+      "question": "What is the email address for the Guwahati Division of the Brahmaputra Board?",
+      "answer": "The email address is bbghydivision[at]gmail[dot]com.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "f734acc71884",
+      "added_at": "2026-03-28T12:41:30.993158+00:00"
+    },
+    {
+      "question": "What is the name of the official leading the Middle Brahmaputra Circle Office?",
+      "answer": "The Middle Brahmaputra Circle Office is headed by the Deputy Chief Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "1f0bab0f3156",
+      "added_at": "2026-03-28T12:41:30.995059+00:00"
+    },
+    {
+      "question": "Which office serves as the Regional Office for Assam under the Brahmaputra Board?",
+      "answer": "The Middle Brahmaputra Circle Office serves as the Brahmaputra Board-Regional Office for Assam.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "c7ed916967dc",
+      "added_at": "2026-03-28T12:41:30.995636+00:00"
+    },
+    {
+      "question": "What does the Middle Brahmaputra Circle Office do?",
+      "answer": "The Middle Brahmaputra Circle Office manages and oversees water resource projects in the basin and handles maintenance of Brahmaputra Board Headquarters including civil, electrical, and outsourcing activities.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "ab26588a9bba",
+      "added_at": "2026-03-28T12:41:30.996477+00:00"
+    },
+    {
+      "question": "Which division supports the Middle Brahmaputra Circle Office?",
+      "answer": "The Guwahati Division, managed by the Executive Engineer, supports the Middle Brahmaputra Circle Office.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "441c852d150a",
+      "added_at": "2026-03-28T12:41:30.997494+00:00"
+    },
+    {
+      "question": "What division assists the Middle Brahmaputra Circle Office of the Brahmaputra Board?",
+      "answer": "The Guwahati Division, managed by the Executive Engineer, supports the Middle Brahmaputra Circle Office.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "ddfac98d6d6e",
+      "added_at": "2026-03-28T12:41:30.998073+00:00"
+    },
+    {
+      "question": "Who is responsible for the Guwahati Division under the Brahmaputra Board?",
+      "answer": "The Guwahati Division is managed by the Executive Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/mbc",
+      "id": "7df1026e7074",
+      "added_at": "2026-03-28T12:41:30.999139+00:00"
+    },
+    {
+      "question": "Which government department oversees the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board is overseen by the Department of Water Resources, River Development & Ganga Rejuvenation under the Ministry of Jal Shakti.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "187ab6339dad",
+      "added_at": "2026-03-28T12:41:30.999665+00:00"
+    },
+    {
+      "question": "On what date did the Brahmaputra Board come into existence?",
+      "answer": "The Brahmaputra Board came into existence on December 31, 1981, as notified by the Central Government.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "3581c9757235",
+      "added_at": "2026-03-28T12:41:31.000236+00:00"
+    },
+    {
+      "question": "When did the Brahmaputra Board Act come into force?",
+      "answer": "The Brahmaputra Board Act came into force on December 31, 1981, as notified by the Central Government through G.S.R. 677(E) dated December 28, 1981.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "14b17a3be65b",
+      "added_at": "2026-03-28T12:41:31.000789+00:00"
+    },
+    {
+      "question": "When did the Brahmaputra Board start functioning at its headquarters?",
+      "answer": "The Brahmaputra Board started functioning at its headquarters in Guwahati from January 11, 1982.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "2087861d3910",
+      "added_at": "2026-03-28T12:41:31.001612+00:00"
+    },
+    {
+      "question": "Where is the Brahmaputra Board's main office situated?",
+      "answer": "The main office of the Brahmaputra Board is situated in Guwahati.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "66dcf341254f",
+      "added_at": "2026-03-28T12:41:31.002167+00:00"
+    },
+    {
+      "question": "Is there a Brahmaputra Board office in Delhi?",
+      "answer": "Yes, the Brahmaputra Board has a Coordination Office in New Delhi.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "4f446a94d748",
+      "added_at": "2026-03-28T12:41:31.003092+00:00"
+    },
+    {
+      "question": "Which river valleys fall under the jurisdiction of the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board's jurisdiction includes the Brahmaputra Valley and the Barak Valley.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "3c33b4faa14a",
+      "added_at": "2026-03-28T12:41:31.003711+00:00"
+    },
+    {
+      "question": "What areas are covered by the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board covers the Brahmaputra Valley, Barak Valley, all the states of the North Eastern Region including Sikkim, and part of West Bengal falling under the Brahmaputra basin.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "a7cd23b611e8",
+      "added_at": "2026-03-28T12:41:31.004305+00:00"
+    },
+    {
+      "question": "Which states are included in the Brahmaputra Board's jurisdiction?",
+      "answer": "The Brahmaputra Board's jurisdiction covers all the states of the North Eastern Region including Sikkim and part of West Bengal falling under the Brahmaputra basin.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "11c9010e0557",
+      "added_at": "2026-03-28T12:41:31.004909+00:00"
+    },
+    {
+      "question": "How many full-time and part-time members are in the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board has 4 full-time members and 17 part-time members.",
+      "source": "https://brahmaputraboard.gov.in/introduction",
+      "id": "f9d88fe1012e",
+      "added_at": "2026-03-28T12:41:31.005638+00:00"
+    },
+    {
+      "question": "On which date did the Brahmaputra Board begin operations?",
+      "answer": "The Brahmaputra Board began operations on January 11, 1982.",
+      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
+      "id": "263a7ff91da0",
+      "added_at": "2026-03-28T12:41:31.006811+00:00"
+    },
+    {
+      "question": "When did the Brahmaputra Board commence its work?",
+      "answer": "The Brahmaputra Board commenced its work on January 11, 1982.",
+      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
+      "id": "a23c6aefe156",
+      "added_at": "2026-03-28T12:41:31.007372+00:00"
+    },
+    {
+      "question": "Which parliamentary act led to the formation of the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board was established under an Act of Parliament (Act 46 of 1980).",
+      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
+      "id": "61d87731ead2",
+      "added_at": "2026-03-28T12:41:31.008022+00:00"
+    },
+    {
+      "question": "Does the Brahmaputra Board have a liaison office in New Delhi?",
+      "answer": "Yes, the Brahmaputra Board has established a liaison office in New Delhi as per sub-section (2) of section (3) of the Brahmaputra Board Rules, 1981.",
+      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
+      "id": "73d6de78c06a",
+      "added_at": "2026-03-28T12:41:31.009233+00:00"
+    },
+    {
+      "question": "What regions fall under the Brahmaputra Board's authority?",
+      "answer": "The Brahmaputra Board's authority includes the Brahmaputra and Barak Valleys, covering all the states of the North Eastern Region, including Sikkim and West Bengal.",
+      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
+      "id": "ef1910e59e14",
+      "added_at": "2026-03-28T12:41:31.011370+00:00"
+    },
+    {
+      "question": "Who are the members of the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board consists of 21 members: 4 full-time members and 17 part-time members representing seven states of the North Eastern Region, the North Eastern Council, concerned ministries (Ministry of Jal Shakti, Agriculture, Finance, Power, and Surface Transport), and departments of the Government of India (Central Water Commission, Geological Survey of India, India Meteorological Department, and the Central Electricity Authority).",
+      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
+      "id": "61db212812de",
+      "added_at": "2026-03-28T12:41:31.012663+00:00"
+    },
+    {
+      "question": "When was the webpage last updated?",
+      "answer": "The webpage was last updated on Saturday, March 28, 2026.",
+      "source": "https://brahmaputraboard.gov.in/organisation-structure",
+      "id": "b918eb28dc87",
+      "added_at": "2026-03-28T12:41:31.014096+00:00"
+    },
+    {
+      "question": "Which areas does the Brahmaputra Board cover?",
+      "answer": "The jurisdiction of the Brahmaputra Board covers all the North Eastern States including Sikkim and the northern part of West Bengal that drain into the Brahmaputra basin, as notified by the Government of India vide S.O. 2313 dated 18.12.2005.",
+      "source": "https://brahmaputraboard.gov.in/jurisdiction-map",
+      "id": "08f3c4022182",
+      "added_at": "2026-03-28T12:41:31.015493+00:00"
+    },
+    {
+      "question": "Head office location of Brahmaputra Board?",
+      "answer": "The address of the Brahmaputra Board is Basistha, Guwahati-781029, under the Ministry of Jal Shakti, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/jurisdiction-map",
+      "id": "eb15b8ebb128",
+      "added_at": "2026-03-28T12:41:31.016249+00:00"
+    },
+    {
+      "question": "How to contact Brahmaputra Board by phone?",
+      "answer": "The phone number of the Brahmaputra Board is 0361-2300128.",
+      "source": "https://brahmaputraboard.gov.in/jurisdiction-map",
+      "id": "b0f13f830a60",
+      "added_at": "2026-03-28T12:41:31.016864+00:00"
+    },
+    {
+      "question": "Email address for Brahmaputra Board secretary?",
+      "answer": "The official email of the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/jurisdiction-map",
+      "id": "ac09249c4b52",
+      "added_at": "2026-03-28T12:41:31.017884+00:00"
+    },
+    {
+      "question": "Which Act created the Brahmaputra Board?",
+      "answer": "The Brahmaputra Board Act, 1980 created the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "6ff83d45a185",
+      "added_at": "2026-03-28T12:41:31.018741+00:00"
+    },
+    {
+      "question": "Under which legislation was the Brahmaputra Board formed?",
+      "answer": "The Brahmaputra Board was formed under the Brahmaputra Board Act, 1980.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "394fa7ef2a39",
+      "added_at": "2026-03-28T12:41:31.019358+00:00"
+    },
+    {
+      "question": "How is the effective date of the Brahmaputra Board Act determined?",
+      "answer": "The effective date of the Brahmaputra Board Act, 1980 is determined by the Central Government through a notification in the Official Gazette.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "6b3108bc626b",
+      "added_at": "2026-03-28T12:41:31.020866+00:00"
+    },
+    {
+      "question": "Who appoints the Chairman and Vice-Chairman of the Brahmaputra Board?",
+      "answer": "The Chairman and Vice-Chairman of the Brahmaputra Board are appointed by the Central Government.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "c955446de9ca",
+      "added_at": "2026-03-28T12:41:31.021551+00:00"
+    },
+    {
+      "question": "Which government body declared it expedient to regulate the Brahmaputra river valley?",
+      "answer": "The Central Government declared it expedient in the public interest to take under its control the regulation and development of the inter-State Brahmaputra river valley.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "c8a169983e62",
+      "added_at": "2026-03-28T12:41:31.023734+00:00"
+    },
+    {
+      "question": "Why should the Brahmaputra river valley be under Central Government control?",
+      "answer": "It is declared expedient in the public interest that the Central Government should take under its control the regulation and development of the inter-State Brahmaputra river valley to the extent provided in the Brahmaputra Board Act, 1980.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "69a7d849d3fc",
+      "added_at": "2026-03-28T12:41:31.024436+00:00"
+    },
+    {
+      "question": "What is the rationale behind Central Government control of the Brahmaputra river valley?",
+      "answer": "The rationale is that it is expedient in the public interest for the Central Government to take under its control the regulation and development of the inter-State Brahmaputra river valley as provided in the Brahmaputra Board Act, 1980.",
+      "source": "https://brahmaputraboard.gov.in/act-of-bb",
+      "id": "6d738f931706",
+      "added_at": "2026-03-28T12:41:31.025196+00:00"
+    },
+    {
+      "question": "What is the legal basis for the Standing Committee Rules of the Brahmaputra Board?",
+      "answer": "The Standing Committee Rules of the Brahmaputra Board are made under sub-section (2) of Section 28 of the Brahmaputra Board Act, 1980 (46 of 1980).",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "f8891720bf5d",
+      "added_at": "2026-03-28T12:41:31.025982+00:00"
+    },
+    {
+      "question": "Which section of the Brahmaputra Board Act, 1980 provides powers for making Standing Committee Rules?",
+      "answer": "Sub-section (2) of Section 28 of the Brahmaputra Board Act, 1980 (46 of 1980) provides the powers for making the Standing Committee Rules.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "41facf579fd8",
+      "added_at": "2026-03-28T12:41:31.026805+00:00"
+    },
+    {
+      "question": "On what date did the Standing Committee Rules become effective?",
+      "answer": "The Standing Committee Rules became effective on the date of their publication in the Official Gazette.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "8326f04902dc",
+      "added_at": "2026-03-28T12:41:31.028158+00:00"
+    },
+    {
+      "question": "When were the Brahmaputra Board Standing Committee Rules implemented?",
+      "answer": "The Brahmaputra Board Standing Committee Rules were implemented on the date of their publication in the Official Gazette.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "229432459a5f",
+      "added_at": "2026-03-28T12:41:31.028887+00:00"
+    },
+    {
+      "question": "Who is the Chairman of the Standing Committee of the Brahmaputra Board?",
+      "answer": "The Chairman of the Brahmaputra Board is the Chairman of the Standing Committee.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "73098f3544e6",
+      "added_at": "2026-03-28T12:41:31.029652+00:00"
+    },
+    {
+      "question": "Which position holds the chair of the Standing Committee?",
+      "answer": "The Chairman of the Brahmaputra Board holds the chair of the Standing Committee.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "8667e1f79d22",
+      "added_at": "2026-03-28T12:41:31.030376+00:00"
+    },
+    {
+      "question": "What is the role of the General Manager in the Standing Committee?",
+      "answer": "The General Manager of the Brahmaputra Board serves as the Member (Convener) of the Standing Committee.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "8e5ee69c9856",
+      "added_at": "2026-03-28T12:41:31.032606+00:00"
+    },
+    {
+      "question": "What functions does the Standing Committee of the Brahmaputra Board perform?",
+      "answer": "The Standing Committee examines the annual Action Plan, advises on investigations and studies for master plans and projects, decides priority works, sets time frames, submits decisions for Board ratification, and exercises financial powers including delegation to field offices.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "cc6557aa5cd1",
+      "added_at": "2026-03-28T12:41:31.034183+00:00"
+    },
+    {
+      "question": "What is the definition of 'Master Plans' in the context of the Brahmaputra Board?",
+      "answer": "Master Plans refer to the plans prepared by the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "2c4f75c8a956",
+      "added_at": "2026-03-28T12:41:31.035774+00:00"
+    },
+    {
+      "question": "How are Master Plans defined by the Brahmaputra Board Rules?",
+      "answer": "Master Plans are defined as plans prepared by the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "6d2c66ee7db9",
+      "added_at": "2026-03-28T12:41:31.036516+00:00"
+    },
+    {
+      "question": "What do 'Master Plans' mean according to the Standing Committee Rules?",
+      "answer": "According to the Standing Committee Rules, 'Master Plans' means Master Plans prepared by the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/committee-member",
+      "id": "335dd4e1b450",
+      "added_at": "2026-03-28T12:41:31.037301+00:00"
+    },
+    {
+      "question": "Is there an official email for Brahmaputra Board queries?",
+      "answer": "Yes, the official email address for the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/list-of-holiday",
+      "id": "8fefe676ebc6",
+      "added_at": "2026-03-28T12:41:31.038636+00:00"
+    },
+    {
+      "question": "When is Republic Day in Assam in 2026?",
+      "answer": "Republic Day in Assam in 2026 is on January 26, Monday.",
+      "source": "https://brahmaputraboard.gov.in/list-of-holiday",
+      "id": "b2840bf4dce4",
+      "added_at": "2026-03-28T12:41:31.039348+00:00"
+    },
+    {
+      "question": "Date of Republic Day holiday in Assam 2026",
+      "answer": "Republic Day in Assam in 2026 is on January 26, Monday.",
+      "source": "https://brahmaputraboard.gov.in/list-of-holiday",
+      "id": "3939da959067",
+      "added_at": "2026-03-28T12:41:31.040059+00:00"
+    },
+    {
+      "question": "Is January 26 a holiday in Assam in 2026?",
+      "answer": "Yes, January 26, 2026, is a holiday in Assam for Republic Day.",
+      "source": "https://brahmaputraboard.gov.in/list-of-holiday",
+      "id": "d0ed29b828ee",
+      "added_at": "2026-03-28T12:41:31.040795+00:00"
+    },
+    {
+      "question": "Who is the Secretary of the Brahmaputra Board and Grievance Officer?",
+      "answer": "The Secretary of the Brahmaputra Board and Grievance Officer is Shri Abhay Kumar.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "ef951b66174d",
+      "added_at": "2026-03-28T12:41:31.048823+00:00"
+    },
+    {
+      "question": "Name of the Grievance Officer at Brahmaputra Board",
+      "answer": "The Grievance Officer at Brahmaputra Board is Shri Abhay Kumar, who is also the Secretary of the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "12f9cfbdd795",
+      "added_at": "2026-03-28T12:41:31.049542+00:00"
+    },
+    {
+      "question": "Who heads the grievance redressal at Brahmaputra Board?",
+      "answer": "Shri Abhay Kumar, Secretary of the Brahmaputra Board, heads the grievance redressal as the Grievance Officer.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "2d15fe237c80",
+      "added_at": "2026-03-28T12:41:31.050285+00:00"
+    },
+    {
+      "question": "How to call the Brahmaputra Board Secretary?",
+      "answer": "You can call the Brahmaputra Board Secretary at 0361-2300128(O).",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "769d6fe0a7b7",
+      "added_at": "2026-03-28T12:41:31.051682+00:00"
+    },
+    {
+      "question": "Who is the CPGRAM Nodal Officer at Brahmaputra Board?",
+      "answer": "The CPGRAM Nodal Officer at Brahmaputra Board is Smt Jalee Bezbaruah, Executive Engineer (HQ).",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "ab9338db9b34",
+      "added_at": "2026-03-28T12:41:31.052453+00:00"
+    },
+    {
+      "question": "Name of the Executive Engineer serving as CPGRAM Nodal Officer",
+      "answer": "Smt Jalee Bezbaruah, Executive Engineer (HQ), is the CPGRAM Nodal Officer at Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "3ec03351d5b2",
+      "added_at": "2026-03-28T12:41:31.053249+00:00"
+    },
+    {
+      "question": "Who handles CPGRAM grievances at Brahmaputra Board?",
+      "answer": "Smt Jalee Bezbaruah, Executive Engineer (HQ), handles CPGRAM grievances as the CPGRAM Nodal Officer at Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "0c4786263cd6",
+      "added_at": "2026-03-28T12:41:31.053986+00:00"
+    },
+    {
+      "question": "Phone number of Brahmaputra Board's CPGRAM Nodal Officer",
+      "answer": "The phone number of Brahmaputra Board's CPGRAM Nodal Officer, Smt Jalee Bezbaruah, is 84868-09881.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "9d516065c3eb",
+      "added_at": "2026-03-28T12:41:31.054786+00:00"
+    },
+    {
+      "question": "How to email the CPGRAM Nodal Officer of Brahmaputra Board?",
+      "answer": "You can email the CPGRAM Nodal Officer of Brahmaputra Board at bbrd-ghy[at]nic[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "2e3759f95803",
+      "added_at": "2026-03-28T12:41:31.057101+00:00"
+    },
+    {
+      "question": "Who is the Chairman of the Complaints Committee for Sexual Harassment of Women at Workplace at Brahmaputra Board?",
+      "answer": "The Chairman of the Complaints Committee for Sexual Harassment of Women at Workplace at Brahmaputra Board is Smt Jalee Bezbaruah, Executive Engineer.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "e06165daf485",
+      "added_at": "2026-03-28T12:41:31.058112+00:00"
+    },
+    {
+      "question": "Under which government ministry is Brahmaputra Board established?",
+      "answer": "The Brahmaputra Board is established under the Ministry of Jal Shakti, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "96918d48b017",
+      "added_at": "2026-03-28T12:41:31.060920+00:00"
+    },
+    {
+      "question": "Ministry responsible for Brahmaputra Board",
+      "answer": "The Ministry responsible for Brahmaputra Board is the Ministry of Jal Shakti, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/grievance",
+      "id": "eed1a9d8b673",
+      "added_at": "2026-03-28T12:41:31.061616+00:00"
+    },
+    {
+      "question": "Which email ID should be used to contact Brahmaputra Board?",
+      "answer": "The email ID to contact the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "0cac8e08a0ff",
+      "added_at": "2026-03-28T12:41:31.063543+00:00"
+    },
+    {
+      "question": "When does the re-employment advertisement for contract positions in Brahmaputra Board end?",
+      "answer": "The re-employment advertisement for contract positions in Brahmaputra Board ends on 22.03.2026.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "616cab0d0baa",
+      "added_at": "2026-03-28T12:41:31.064469+00:00"
+    },
+    {
+      "question": "What is the last date to apply for re-employment on contract basis in Brahmaputra Board?",
+      "answer": "The last date to apply for re-employment on contract basis in Brahmaputra Board is 22.03.2026.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "05bba83d2b28",
+      "added_at": "2026-03-28T12:41:31.065445+00:00"
+    },
+    {
+      "question": "Until when can applications be submitted for contract-based re-employment at Brahmaputra Board?",
+      "answer": "Applications for contract-based re-employment at Brahmaputra Board can be submitted until 22.03.2026.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "cbf49212685b",
+      "added_at": "2026-03-28T12:41:31.066392+00:00"
+    },
+    {
+      "question": "When is the last date to apply for the Assistant Executive Engineer (Civil) position in Brahmaputra Board?",
+      "answer": "The last date to apply for the Assistant Executive Engineer (Civil) position in Brahmaputra Board is 01.10.2025.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "daf42cff5d32",
+      "added_at": "2026-03-28T12:41:31.067418+00:00"
+    },
+    {
+      "question": "What is the closing date for AEE (Civil) recruitment applications in Brahmaputra Board?",
+      "answer": "The closing date for AEE (Civil) recruitment applications in Brahmaputra Board is 01.10.2025.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "5d4589c7660c",
+      "added_at": "2026-03-28T12:41:31.068368+00:00"
+    },
+    {
+      "question": "By when must candidates apply for the Assistant Executive Engineer (Civil) post advertised by Brahmaputra Board?",
+      "answer": "Candidates must apply for the Assistant Executive Engineer (Civil) post advertised by Brahmaputra Board by 01.10.2025.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "ef21a3202706",
+      "added_at": "2026-03-28T12:41:31.069392+00:00"
+    },
+    {
+      "question": "When does the application window close for the Expert Consultant position at Brahmaputra Board?",
+      "answer": "The application window for the Expert Consultant position at Brahmaputra Board closes on 31.07.2025.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "8e25a3278311",
+      "added_at": "2026-03-28T12:41:31.070373+00:00"
+    },
+    {
+      "question": "What is the end date for applying to the Expert Consultant role in Brahmaputra Board?",
+      "answer": "The end date for applying to the Expert Consultant role in Brahmaputra Board is 31.07.2025.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "725aa42067df",
+      "added_at": "2026-03-28T12:41:31.071378+00:00"
+    },
+    {
+      "question": "Until when can one apply for the Expert Consultant engagement in Brahmaputra Board?",
+      "answer": "One can apply for the Expert Consultant engagement in Brahmaputra Board until 31.07.2025.",
+      "source": "https://brahmaputraboard.gov.in/recruitment",
+      "id": "cf1c4e9a43e3",
+      "added_at": "2026-03-28T12:41:31.072341+00:00"
+    },
+    {
+      "question": "When was the list of provisionally selected candidates for AEE (Civil) announced?",
+      "answer": "The list of provisionally selected candidates for the post of AEE (Civil) was announced on 16.01.2026.",
+      "source": "https://brahmaputraboard.gov.in/result",
+      "id": "6d102b4482d3",
+      "added_at": "2026-03-28T12:41:31.074888+00:00"
+    },
+    {
+      "question": "Date of AEE Civil provisional selection notification",
+      "answer": "The notification for provisionally selected candidates for the post of AEE (Civil) was issued on 16.01.2026.",
+      "source": "https://brahmaputraboard.gov.in/result",
+      "id": "0e5d554093fa",
+      "added_at": "2026-03-28T12:41:31.075717+00:00"
+    },
+    {
+      "question": "When did Brahmaputra Board release AEE Civil results?",
+      "answer": "The Brahmaputra Board released the results for AEE (Civil) on 16.01.2026.",
+      "source": "https://brahmaputraboard.gov.in/result",
+      "id": "fe98e5ca2f1f",
+      "added_at": "2026-03-28T12:41:31.076563+00:00"
+    },
+    {
+      "question": "What was the result date for Assistant Executive Engineer (Civil) post at Brahmaputra Board?",
+      "answer": "The result for the Assistant Executive Engineer (Civil) post was announced on 16.01.2026.",
+      "source": "https://brahmaputraboard.gov.in/result",
+      "id": "2f9d5f124d2e",
+      "added_at": "2026-03-28T12:41:31.077582+00:00"
+    },
+    {
+      "question": "What is the application number for the RTI filed on 10.04.2024?",
+      "answer": "The application number for the RTI filed on 10.04.2024 is I-11012/9/2024-Estt.III/301-308.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "7b5a43c4a5a6",
+      "added_at": "2026-03-28T12:41:31.078571+00:00"
+    },
+    {
+      "question": "Which RTI application was received on 10 April 2024?",
+      "answer": "The RTI application received on 10 April 2024 has the application number I-11012/9/2024-Estt.III/301-308.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "d1144276f0b3",
+      "added_at": "2026-03-28T12:41:31.079460+00:00"
+    },
+    {
+      "question": "When was the RTI application with number I-11012/9/2024-Estt.III/301-308 received?",
+      "answer": "The RTI application with number I-11012/9/2024-Estt.III/301-308 was received on 10.04.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "e7da327f837b",
+      "added_at": "2026-03-28T12:41:31.080516+00:00"
+    },
+    {
+      "question": "What was the subject of the RTI application filed on 22.04.2024?",
+      "answer": "The subject of the RTI application filed on 22.04.2024 was information sought under the Right to Information Act, 2005.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "ee22507bb439",
+      "added_at": "2026-03-28T12:41:31.082632+00:00"
+    },
+    {
+      "question": "When was the RTI application with reference to information under RTI Act 2005 received on 22 April 2024 replied?",
+      "answer": "The RTI application received on 22.04.2024 was replied to on 03.05.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "a6394ef94f40",
+      "added_at": "2026-03-28T12:41:31.083794+00:00"
+    },
+    {
+      "question": "When was the reply provided for the RTI application 1-11011/30/2024-E-III/325-333?",
+      "answer": "The reply for RTI application 1-11011/30/2024-E-III/325-333 was provided on 03.05.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "b5806a98cea4",
+      "added_at": "2026-03-28T12:41:31.085881+00:00"
+    },
+    {
+      "question": "What is the received date of RTI application BBOAD/R/E/00002?",
+      "answer": "The received date of RTI application BBOAD/R/E/00002 is 29.05.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "454cb3462db8",
+      "added_at": "2026-03-28T12:41:31.086879+00:00"
+    },
+    {
+      "question": "On which date was RTI application BBOAD/R/E/00002 submitted?",
+      "answer": "RTI application BBOAD/R/E/00002 was submitted on 29.05.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "f0c792571c28",
+      "added_at": "2026-03-28T12:41:31.087850+00:00"
+    },
+    {
+      "question": "What information was sought in RTI application BBOAD/R/E/00002?",
+      "answer": "In RTI application BBOAD/R/E/00002, information was sought regarding (i) the status of recruitment of AEE notice dated 05.12.2023, (ii) the number of candidates who applied under the said notice, and (iii) the list of candidates who applied under the said notice.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "18e1f100651f",
+      "added_at": "2026-03-28T12:41:31.088830+00:00"
+    },
+    {
+      "question": "When was the reply issued for RTI application BBOAD/R/E/00002?",
+      "answer": "The reply for RTI application BBOAD/R/E/00002 was issued on 14.06.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "602efc8ed837",
+      "added_at": "2026-03-28T12:41:31.089842+00:00"
+    },
+    {
+      "question": "What was the subject of RTI application BBOAD/R/E/24/00004?",
+      "answer": "The subject of RTI application BBOAD/R/E/24/00004 was the vacancy position of AEE (civil).",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "3389d281c303",
+      "added_at": "2026-03-28T12:41:31.090855+00:00"
+    },
+    {
+      "question": "When was RTI application BBOAD/R/E/24/0008 filed?",
+      "answer": "RTI application BBOAD/R/E/24/0008 was filed on 04.07.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "785beedf69ad",
+      "added_at": "2026-03-28T12:41:31.094847+00:00"
+    },
+    {
+      "question": "What information was requested in the RTI application received on 12.07.2024?",
+      "answer": "The RTI application received on 12.07.2024 requested (i) a detailed statement of Earned Leave account from 31.07.1984 to 30.04.2017, (ii) details of Earned Leave encashment on LTC grounds, and (iii) a detailed statement of half pay leave account of the individual.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "255fbd97b4aa",
+      "added_at": "2026-03-28T12:41:31.096948+00:00"
+    },
+    {
+      "question": "When was the reply provided for the RTI application filed on 12.07.2024?",
+      "answer": "The reply for the RTI application filed on 12.07.2024 was provided on 19.07.2024.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "f5e417b17b15",
+      "added_at": "2026-03-28T12:41:31.098042+00:00"
+    },
+    {
+      "question": "What was the subject of the RTI application filed by Shri Bimal Das?",
+      "answer": "The subject of the RTI application filed by Shri Bimal Das was information sought under the Right to Information Act, 2005, regarding different affiliated or recognised associations.",
+      "source": "https://brahmaputraboard.gov.in/rti-application-reply",
+      "id": "c21f8c65b4d4",
+      "added_at": "2026-03-28T12:41:31.099110+00:00"
+    },
+    {
+      "question": "What is the time period covered by the 1st Quarterly RTI Reply of Brahmaputra Board for 2024-2025?",
+      "answer": "The time period covered by the 1st Quarterly RTI Reply of Brahmaputra Board for 2024-2025 is April - June.",
+      "source": "https://brahmaputraboard.gov.in/rti-quarterly-reply",
+      "id": "daac3fc472c1",
+      "added_at": "2026-03-28T12:41:31.102358+00:00"
+    },
+    {
+      "question": "When does the first quarter of the RTI report for Brahmaputra Board end in 2024-2025?",
+      "answer": "The first quarter of the RTI report for Brahmaputra Board for 2024-2025 ends in June.",
+      "source": "https://brahmaputraboard.gov.in/rti-quarterly-reply",
+      "id": "4f1e68764bc2",
+      "added_at": "2026-03-28T12:41:31.103526+00:00"
+    },
+    {
+      "question": "Which months are included in the first quarterly RTI reply of Brahmaputra Board for the year 2024-2025?",
+      "answer": "The months included in the first quarterly RTI reply of Brahmaputra Board for the year 2024-2025 are April, May, and June.",
+      "source": "https://brahmaputraboard.gov.in/rti-quarterly-reply",
+      "id": "61a03e0cca1e",
+      "added_at": "2026-03-28T12:41:31.104760+00:00"
+    },
+    {
+      "question": "For which quarter is the RTI reply dated April - June 2024-2025 issued by Brahmaputra Board?",
+      "answer": "The RTI reply dated April - June 2024-2025 issued by Brahmaputra Board is for the 1st Quarter.",
+      "source": "https://brahmaputraboard.gov.in/rti-quarterly-reply",
+      "id": "73b3ae8f4b86",
+      "added_at": "2026-03-28T12:41:31.105946+00:00"
+    },
+    {
+      "question": "Which three months does the second quarterly RTI report of Brahmaputra Board cover in 2024-2025?",
+      "answer": "The second quarterly RTI report of Brahmaputra Board for 2024-2025 covers July, August, and September.",
+      "source": "https://brahmaputraboard.gov.in/rti-quarterly-reply",
+      "id": "a29767f5a485",
+      "added_at": "2026-03-28T12:41:31.108304+00:00"
+    },
+    {
+      "question": "What is the date of the document assigning roles for Appellate Authority and Central Public Information Officer?",
+      "answer": "The document assigning roles for Appellate Authority (AA) and Central Public Information Officer (CPIO) is dated 24-07-2025.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "eb524659c6a2",
+      "added_at": "2026-03-28T12:41:31.126391+00:00"
+    },
+    {
+      "question": "When was the CPIO and AA role assignment document issued?",
+      "answer": "The document assigning roles for Appellate Authority (AA) and Central Public Information Officer (CPIO) is dated 24-07-2025.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "e2293ba025e0",
+      "added_at": "2026-03-28T12:41:31.127432+00:00"
+    },
+    {
+      "question": "On what date were the roles for AA and CPIO assigned according to the RTI document?",
+      "answer": "The document assigning roles for Appellate Authority (AA) and Central Public Information Officer (CPIO) is dated 24-07-2025.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "b0848d578b6e",
+      "added_at": "2026-03-28T12:41:31.128655+00:00"
+    },
+    {
+      "question": "What documents are available under RTI on the Brahmaputra Board website?",
+      "answer": "The RTI documents available include: Assigned roles for AA and CPIO (24-07-2025), Right to Information Act 2005, Right to Information Rules, RTI User Manual, Agency Scheme Wise Level Break Up 2024-2025, Annexure-I Scheme wise expenditure 2024-2025, Draft 24-25 Transparency Audit, Ongoing Projects 2024-2025, Parliamentary Question 2024, Parliamentary Question 2025, and RptTSA 02 Expenditure Details 2024-2025.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "29cc3f7c05fa",
+      "added_at": "2026-03-28T12:41:31.129764+00:00"
+    },
+    {
+      "question": "Which RTI-related files can be downloaded from the Brahmaputra Board site?",
+      "answer": "The RTI-related files available for download are: Assigned roles for AA and CPIO (24-07-2025), Right to Information Act 2005, Right to Information Rules, RTI User Manual, Agency Scheme Wise Level Break Up 2024-2025, Annexure-I Scheme wise expenditure 2024-2025, Draft 24-25 Transparency Audit, Ongoing Projects 2024-2025, Parliamentary Question 2024, Parliamentary Question 2025, and RptTSA 02 Expenditure Details 2024-2025.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "a74a193a413c",
+      "added_at": "2026-03-28T12:41:31.130886+00:00"
+    },
+    {
+      "question": "What is the list of RTI documents published by the Brahmaputra Board?",
+      "answer": "The list of RTI documents published includes: Assigned roles for AA and CPIO (24-07-2025), Right to Information Act 2005, Right to Information Rules, RTI User Manual, Agency Scheme Wise Level Break Up 2024-2025, Annexure-I Scheme wise expenditure 2024-2025, Draft 24-25 Transparency Audit, Ongoing Projects 2024-2025, Parliamentary Question 2024, Parliamentary Question 2025, and RptTSA 02 Expenditure Details 2024-2025.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "a56b0711bc8c",
+      "added_at": "2026-03-28T12:41:31.132018+00:00"
+    },
+    {
+      "question": "Where can I find information about current Brahmaputra Board projects?",
+      "answer": "Information about current Brahmaputra Board projects is available in the document titled 'Ongoing Projects 2024-2025', which is available for download.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "fdbd704f6b85",
+      "added_at": "2026-03-28T12:41:31.133163+00:00"
+    },
+    {
+      "question": "Is there a list of active projects by the Brahmaputra Board for 2024-2025?",
+      "answer": "Yes, the list of active projects for 2024-2025 is available in the document titled 'Ongoing Projects 2024-2025', which is available for download.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "4e2d285d8448",
+      "added_at": "2026-03-28T12:41:31.134358+00:00"
+    },
+    {
+      "question": "What financial details for 2024-2025 are available from the Brahmaputra Board?",
+      "answer": "The financial details for 2024-2025 available include: Agency Scheme Wise Level Break Up, Annexure-I Scheme wise expenditure, and RptTSA 02 Expenditure Details, all of which are available for download.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "d623a271e42d",
+      "added_at": "2026-03-28T12:41:31.135508+00:00"
+    },
+    {
+      "question": "Where can I access Brahmaputra Board's 2024-2025 expenditure reports?",
+      "answer": "The Brahmaputra Board's 2024-2025 expenditure reports are available in the documents titled 'Agency Scheme Wise Level Break Up 2024-2025', 'Annexure-I Scheme wise expenditure 2024-2025', and 'RptTSA 02 Expenditure Details 2024-2025', which are available for download.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "e981a7b5bbaa",
+      "added_at": "2026-03-28T12:41:31.136619+00:00"
+    },
+    {
+      "question": "What budget and expenditure documents are published for 2024-2025?",
+      "answer": "The budget and expenditure documents published for 2024-2025 include: Agency Scheme Wise Level Break Up, Annexure-I Scheme wise expenditure, and RptTSA 02 Expenditure Details, all available for download.",
+      "source": "https://brahmaputraboard.gov.in/rti-documents",
+      "id": "8884cbe278ab",
+      "added_at": "2026-03-28T12:41:31.137720+00:00"
+    },
+    {
+      "question": "Who heads the Vigilance Wing of Brahmaputra Board?",
+      "answer": "The Vigilance Wing of Brahmaputra Board is headed by Shri Vikhosa Kezo, the Chief Vigilance Officer.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "054d7a6aafc5",
+      "added_at": "2026-03-28T12:41:31.140287+00:00"
+    },
+    {
+      "question": "Current Chief Vigilance Officer of Brahmaputra Board",
+      "answer": "The Chief Vigilance Officer of the Brahmaputra Board is Shri Vikhosa Kezo.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "08751fe12421",
+      "added_at": "2026-03-28T12:41:31.141288+00:00"
+    },
+    {
+      "question": "Who assists the Chief Vigilance Officer in the Vigilance Wing?",
+      "answer": "The Vigilance Officer of the Brahmaputra Board, Shri Shyamal Kumar Deka, assists the Chief Vigilance Officer.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "009f1d20eee4",
+      "added_at": "2026-03-28T12:41:31.143194+00:00"
+    },
+    {
+      "question": "Contact number for Shri Shyamal Kumar Deka, Vigilance Officer",
+      "answer": "The phone number of the Vigilance Officer at Brahmaputra Board, Shri Shyamal Kumar Deka, is 0361-2302868.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "0480109dd616",
+      "added_at": "2026-03-28T12:41:31.147460+00:00"
+    },
+    {
+      "question": "Vigilance Officer Brahmaputra Board telephone number",
+      "answer": "The phone number of the Vigilance Officer at Brahmaputra Board is 0361-2302868.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "36674fd20ead",
+      "added_at": "2026-03-28T12:41:31.148447+00:00"
+    },
+    {
+      "question": "Official email of Brahmaputra Board Vigilance Office",
+      "answer": "The email address for the Vigilance Office of Brahmaputra Board is vigilance-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "f22b3b5e59a6",
+      "added_at": "2026-03-28T12:41:31.150259+00:00"
+    },
+    {
+      "question": "Where can vigilance complaints against Brahmaputra Board be filed?",
+      "answer": "Vigilance complaints against Brahmaputra Board can be lodged on the National CVC Portal.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "8ea775ae5819",
+      "added_at": "2026-03-28T12:41:31.152347+00:00"
+    },
+    {
+      "question": "How to file a vigilance complaint against Brahmaputra Board?",
+      "answer": "Vigilance complaints against Brahmaputra Board can be lodged on the National CVC Portal.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "3aaad2d3516c",
+      "added_at": "2026-03-28T12:41:31.153450+00:00"
+    },
+    {
+      "question": "Portal for submitting vigilance complaints related to Brahmaputra Board",
+      "answer": "Vigilance complaints related to Brahmaputra Board can be lodged on the National CVC Portal.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "bee6f467324d",
+      "added_at": "2026-03-28T12:41:31.154549+00:00"
+    },
+    {
+      "question": "Where to submit integrity pledge for Brahmaputra Board?",
+      "answer": "The integrity pledge for Brahmaputra Board can be taken on the National CVC Portal.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-office",
+      "id": "6278c5574ce0",
+      "added_at": "2026-03-28T12:41:31.155615+00:00"
+    },
+    {
+      "question": "What was the topic of the debate competition organized for Brahmaputra Board employees?",
+      "answer": "The topic of the debate competition was Culture of Integrity for Nation’s Prosperity.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "282b46c45637",
+      "added_at": "2026-03-28T12:41:31.159149+00:00"
+    },
+    {
+      "question": "Can you tell me the debate topic for the newly appointed board members?",
+      "answer": "The topic of the debate competition was Culture of Integrity for Nation’s Prosperity.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "a184fe3f13e8",
+      "added_at": "2026-03-28T12:41:31.160382+00:00"
+    },
+    {
+      "question": "What debate topic was discussed by new Brahmaputra Board members during the vigilance campaign?",
+      "answer": "The topic of the debate competition was Culture of Integrity for Nation’s Prosperity.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "4df3aabbc448",
+      "added_at": "2026-03-28T12:41:31.161649+00:00"
+    },
+    {
+      "question": "Which event marked the opening of Vigilance Awareness Week at Brahmaputra Board?",
+      "answer": "The opening ceremony of Vigilance Awareness Week marked the beginning, during which an Integrity Pledge was taken by all members of the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "361404d416ab",
+      "added_at": "2026-03-28T12:41:31.162971+00:00"
+    },
+    {
+      "question": "How did Brahmaputra Board start its Vigilance Awareness Week?",
+      "answer": "The opening ceremony of Vigilance Awareness Week marked the beginning, during which an Integrity Pledge was taken by all members of the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "d7fbcdec5567",
+      "added_at": "2026-03-28T12:41:31.164104+00:00"
+    },
+    {
+      "question": "What happened during the inauguration of Vigilance Awareness Week at Brahmaputra Board?",
+      "answer": "The opening ceremony of Vigilance Awareness Week marked the beginning, during which an Integrity Pledge was taken by all members of the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "19c6f6879545",
+      "added_at": "2026-03-28T12:41:31.165340+00:00"
+    },
+    {
+      "question": "Who delivered the speech on Central Conduct Rules at Brahmaputra Board?",
+      "answer": "The speech on Central Conduct Rules was delivered by Shri Nirmal Pegu, Deputy Secretary of Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "7a52c07db097",
+      "added_at": "2026-03-28T12:41:31.166537+00:00"
+    },
+    {
+      "question": "Name the official who spoke about Central Conduct Rules to new board members.",
+      "answer": "The speech on Central Conduct Rules was delivered by Shri Nirmal Pegu, Deputy Secretary of Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "ed4eb3d63362",
+      "added_at": "2026-03-28T12:41:31.167815+00:00"
+    },
+    {
+      "question": "Which Brahmaputra Board official presented on organizational systems and procedures?",
+      "answer": "The speech on Central Conduct Rules was delivered by Shri Nirmal Pegu, Deputy Secretary of Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "a132857aabb2",
+      "added_at": "2026-03-28T12:41:31.168992+00:00"
+    },
+    {
+      "question": "What did Dr. Nanditesh Nilay present on during the vigilance campaign?",
+      "answer": "Dr. Nanditesh Nilay gave an overview on Vigilance Awareness, Ethics, and Governance.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "854a4c657529",
+      "added_at": "2026-03-28T12:41:31.170207+00:00"
+    },
+    {
+      "question": "What was the subject of Dr. Nanditesh Nilay's presentation at Brahmaputra Board?",
+      "answer": "Dr. Nanditesh Nilay gave an overview on Vigilance Awareness, Ethics, and Governance.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "3ec943686b30",
+      "added_at": "2026-03-28T12:41:31.171493+00:00"
+    },
+    {
+      "question": "Which topics were covered by Dr. Nanditesh Nilay in his session at Brahmaputra Board?",
+      "answer": "Dr. Nanditesh Nilay gave an overview on Vigilance Awareness, Ethics, and Governance.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "5ec4f3e4393e",
+      "added_at": "2026-03-28T12:41:31.172816+00:00"
+    },
+    {
+      "question": "When did the Vigilance Awareness Week conclude at Brahmaputra Board?",
+      "answer": "The Vigilance Awareness Week concluded on 04.11.2024 with the closing ceremony.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "03106c4cef8a",
+      "added_at": "2026-03-28T12:41:31.174025+00:00"
+    },
+    {
+      "question": "When was the closing ceremony of Vigilance Awareness Week held?",
+      "answer": "The Vigilance Awareness Week concluded on 04.11.2024 with the closing ceremony.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "61fd5b92e3ab",
+      "added_at": "2026-03-28T12:41:31.176470+00:00"
+    },
+    {
+      "question": "What was discussed during the symposium on 05.11.2024 at Brahmaputra Board?",
+      "answer": "The symposium held on 05.11.2024 covered Cyber Hygiene, Security, and other IT-related matters to educate board members about online risks and remedies.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "af3136f7bec3",
+      "added_at": "2026-03-28T12:41:31.177794+00:00"
+    },
+    {
+      "question": "What was the focus of the symposium conducted on November 5, 2024, at Brahmaputra Board?",
+      "answer": "The symposium held on 05.11.2024 covered Cyber Hygiene, Security, and other IT-related matters to educate board members about online risks and remedies.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "3ea7a91063c5",
+      "added_at": "2026-03-28T12:41:31.179185+00:00"
+    },
+    {
+      "question": "Which organization's members conducted a workshop at Brahmaputra Board on 29.10.2024?",
+      "answer": "Members from the Competition Commission of India conducted a workshop at Brahmaputra Board on 29.10.2024.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "862e53452ae4",
+      "added_at": "2026-03-28T12:41:31.181848+00:00"
+    },
+    {
+      "question": "Who led the hybrid workshop at Brahmaputra Board on October 29, 2024?",
+      "answer": "Members from the Competition Commission of India conducted a workshop at Brahmaputra Board on 29.10.2024.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "78b12cad7635",
+      "added_at": "2026-03-28T12:41:31.183152+00:00"
+    },
+    {
+      "question": "Which external body delivered a session at Brahmaputra Board during the vigilance campaign?",
+      "answer": "Members from the Competition Commission of India conducted a workshop at Brahmaputra Board on 29.10.2024.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-campaign",
+      "id": "539d868f47f1",
+      "added_at": "2026-03-28T12:41:31.184481+00:00"
+    },
+    {
+      "question": "How many vigilance and disciplinary cases were pending at the beginning of 2023-2024 for Group A officers?",
+      "answer": "03 cases were pending at the beginning of 2023-2024 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "ce27cc555b76",
+      "added_at": "2026-03-28T12:41:31.185973+00:00"
+    },
+    {
+      "question": "Number of pending vigilance cases for Group A staff as of start of 2023-2024",
+      "answer": "03 cases were pending at the beginning of 2023-2024 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "3c235e557a17",
+      "added_at": "2026-03-28T12:41:31.187365+00:00"
+    },
+    {
+      "question": "What was the number of unresolved vigilance cases for Group A at the start of financial year 2023-2024?",
+      "answer": "03 cases were pending at the beginning of 2023-2024 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "0cff9f461d1e",
+      "added_at": "2026-03-28T12:41:31.188908+00:00"
+    },
+    {
+      "question": "How many vigilance cases were added during 2023-2024 for Group B staff?",
+      "answer": "00 cases were added during 2023-2024 for Group B staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "fcb922bac8b6",
+      "added_at": "2026-03-28T12:41:31.190257+00:00"
+    },
+    {
+      "question": "Were any new vigilance cases filed against Group B employees in 2023-2024?",
+      "answer": "00 cases were added during 2023-2024 for Group B staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "d7895be9f81e",
+      "added_at": "2026-03-28T12:41:31.191608+00:00"
+    },
+    {
+      "question": "Number of new disciplinary cases for Group B in 2023-2024",
+      "answer": "00 cases were added during 2023-2024 for Group B staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "11586c774f94",
+      "added_at": "2026-03-28T12:41:31.192895+00:00"
+    },
+    {
+      "question": "Pending vigilance cases for Group B officers as of March 31, 2024",
+      "answer": "02 cases were pending as of 31-03-2024 for Group B staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "44c862e9431f",
+      "added_at": "2026-03-28T12:41:31.200989+00:00"
+    },
+    {
+      "question": "Were there any pending vigilance cases for Group C staff as of 31-03-2024?",
+      "answer": "Nil cases were pending as of 31-03-2024 for Group C staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "4002e6fd55a9",
+      "added_at": "2026-03-28T12:41:31.202421+00:00"
+    },
+    {
+      "question": "How many disciplinary cases were pending for Group C employees in 2023-2024?",
+      "answer": "Nil cases were pending as of 31-03-2024 for Group C staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "b8fe973e8ea3",
+      "added_at": "2026-03-28T12:41:31.205156+00:00"
+    },
+    {
+      "question": "How many vigilance matters were closed for Group B employees in 2022-2023?",
+      "answer": "02 cases were disposed of during 2022-2023 for Group B staff.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "3a52e91d5c68",
+      "added_at": "2026-03-28T12:41:31.213287+00:00"
+    },
+    {
+      "question": "Number of new vigilance cases for Group A in 2015-2016",
+      "answer": "29 cases were added during 2015-2016 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "a065d697d29a",
+      "added_at": "2026-03-28T12:41:31.215965+00:00"
+    },
+    {
+      "question": "Were any new disciplinary cases initiated against Group A staff in 2015-2016?",
+      "answer": "29 cases were added during 2015-2016 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "988b6d7b1323",
+      "added_at": "2026-03-28T12:41:31.217359+00:00"
+    },
+    {
+      "question": "How many vigilance cases were pending for Group A officers as of 31-03-2016?",
+      "answer": "14 cases were pending as of 31-03-2016 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "9948a6404f81",
+      "added_at": "2026-03-28T12:41:31.218838+00:00"
+    },
+    {
+      "question": "Pending disciplinary cases for Group A staff as of March 31, 2016",
+      "answer": "14 cases were pending as of 31-03-2016 for Group A officers.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-disciplinary-cases",
+      "id": "7904609d5a4b",
+      "added_at": "2026-03-28T12:41:31.222287+00:00"
+    },
+    {
+      "question": "What is the document date of the Complaint Handling Policy?",
+      "answer": "The document date of the Complaint Handling Policy is 01-07-2019.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "791c9feae3b0",
+      "added_at": "2026-03-28T12:41:31.223794+00:00"
+    },
+    {
+      "question": "When was the Complaint Handling Policy issued?",
+      "answer": "The Complaint Handling Policy was issued on 01-07-2019.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "f0fbfb623011",
+      "added_at": "2026-03-28T12:41:31.224998+00:00"
+    },
+    {
+      "question": "On what date was the Complaint Handling Policy published?",
+      "answer": "The Complaint Handling Policy was published on 01-07-2019.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "8824644dd0ff",
+      "added_at": "2026-03-28T12:41:31.226273+00:00"
+    },
+    {
+      "question": "When were the Comprehensive Guidelines released?",
+      "answer": "The Comprehensive Guidelines were released on 24-12-2021.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "ab72a26a7c02",
+      "added_at": "2026-03-28T12:41:31.228718+00:00"
+    },
+    {
+      "question": "What is the release date of the Comprehensive Guidelines by the Vigilance Office?",
+      "answer": "The release date of the Comprehensive Guidelines by the Vigilance Office is 24-12-2021.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "a612bfaa7bd4",
+      "added_at": "2026-03-28T12:41:31.230155+00:00"
+    },
+    {
+      "question": "What is the document date for the instruction on closure of complaints not qualifying as PIDPI complaints?",
+      "answer": "The document date for the instruction on closure of complaints not qualifying as PIDPI complaints is 04-02-2022.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "f702383e76c5",
+      "added_at": "2026-03-28T12:41:31.231756+00:00"
+    },
+    {
+      "question": "When was the guideline issued regarding closure of non-qualifying PIDPI complaints?",
+      "answer": "The guideline regarding closure of non-qualifying PIDPI complaints was issued on 04-02-2022.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "e1e8302d311c",
+      "added_at": "2026-03-28T12:41:31.233170+00:00"
+    },
+    {
+      "question": "On what date was the instruction released about not submitting non-qualifying PIDPI complaints to the screening committee?",
+      "answer": "The instruction about not submitting non-qualifying PIDPI complaints to the screening committee was released on 04-02-2022.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "30aa69c9d98a",
+      "added_at": "2026-03-28T12:41:31.234823+00:00"
+    },
+    {
+      "question": "What is the date of the document on non-disclosure of the identity of the sender under PIDPI?",
+      "answer": "The date of the document on non-disclosure of the identity of the sender under PIDPI is 26-11-2021.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "f47c73922e0d",
+      "added_at": "2026-03-28T12:41:31.236442+00:00"
+    },
+    {
+      "question": "When was the policy on protecting the identity of PIDPI complainants issued?",
+      "answer": "The policy on protecting the identity of PIDPI complainants was issued on 26-11-2021.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "ed8ea69b5734",
+      "added_at": "2026-03-28T12:41:31.237889+00:00"
+    },
+    {
+      "question": "On what date was the directive about confidentiality of PIDPI complainant identity released?",
+      "answer": "The directive about confidentiality of PIDPI complainant identity was released on 26-11-2021.",
+      "source": "https://brahmaputraboard.gov.in/vigilance-documents",
+      "id": "ae559e84d29a",
+      "added_at": "2026-03-28T12:41:31.239383+00:00"
+    },
+    {
+      "question": "What is the last date for submission of tender GEM/2024/B/5269978?",
+      "answer": "The last date for submission of tender GEM/2024/B/5269978 is 27.08.2024.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "fa8bab2c7d69",
+      "added_at": "2026-03-28T12:41:31.243030+00:00"
+    },
+    {
+      "question": "When does the bid GEM/2024/B/5269978 close?",
+      "answer": "The last date for submission of tender GEM/2024/B/5269978 is 27.08.2024.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "1a4e7999f1d9",
+      "added_at": "2026-03-28T12:41:31.244411+00:00"
+    },
+    {
+      "question": "Deadline for tender ID GEM/2024/B/5269978",
+      "answer": "The last date for submission of tender GEM/2024/B/5269978 is 27.08.2024.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "71f9fd110873",
+      "added_at": "2026-03-28T12:41:31.245708+00:00"
+    },
+    {
+      "question": "What is the tender value of BB/ID/e-tender/2019-20/1916-1926?",
+      "answer": "The tender value of BB/ID/e-tender/2019-20/1916-1926 is Rs.14,83,34,000.00.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "c77eeac371cb",
+      "added_at": "2026-03-28T12:41:31.248551+00:00"
+    },
+    {
+      "question": "Tender amount for protection work in Lower Siang District, Arunachal Pradesh",
+      "answer": "The tender value of BB/ID/e-tender/2019-20/1916-1926 is Rs.14,83,34,000.00.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "a6337d5e044b",
+      "added_at": "2026-03-28T12:41:31.251580+00:00"
+    },
+    {
+      "question": "Which office is handling tender GEM/2024/B/5269162?",
+      "answer": "The procuring office for tender GEM/2024/B/5269162 is Aizawl Division.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "945fe2a590fc",
+      "added_at": "2026-03-28T12:41:31.254459+00:00"
+    },
+    {
+      "question": "Procuring authority for DPR preparation on Tuipui River, Champhai District",
+      "answer": "The procuring office for tender GEM/2024/B/5269162 is Aizawl Division.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "223b14995b5b",
+      "added_at": "2026-03-28T12:41:31.255885+00:00"
+    },
+    {
+      "question": "Who is the issuing office for tender ID GEM/2024/B/5269162?",
+      "answer": "The procuring office for tender GEM/2024/B/5269162 is Aizawl Division.",
+      "source": "https://brahmaputraboard.gov.in/archived-tender",
+      "id": "705b0432e70a",
+      "added_at": "2026-03-28T12:41:31.257361+00:00"
+    },
+    {
+      "question": "What is the name of the consultancy service awarded under Tender ID GEM/2024/B/5279580?",
+      "answer": "The name of the consultancy service awarded is Consultancy Services for preparation of 15 River Basin Master Plans [Package-1].",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "ff0b286b55f4",
+      "added_at": "2026-03-28T12:41:31.261959+00:00"
+    },
+    {
+      "question": "Which project was awarded under Tender ID GEM/2024/B/5279580?",
+      "answer": "The project awarded under Tender ID GEM/2024/B/5279580 is Consultancy Services for preparation of 15 River Basin Master Plans [Package-1].",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "3f44db1d584c",
+      "added_at": "2026-03-28T12:41:31.263412+00:00"
+    },
+    {
+      "question": "What consultancy work was awarded to JV-M/s Pureways Infra Pvt Ltd & M/s RMSI Pvt Ltd?",
+      "answer": "The consultancy work awarded to JV-M/s Pureways Infra Pvt Ltd & M/s RMSI Pvt Ltd is Consultancy Services for preparation of 15 River Basin Master Plans [Package-1].",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "25f16300a8b5",
+      "added_at": "2026-03-28T12:41:31.265095+00:00"
+    },
+    {
+      "question": "Who is the contractor for the Consultancy Services for preparation of 15 River Basin Master Plans [Package-1]?",
+      "answer": "The contractor for the Consultancy Services for preparation of 15 River Basin Master Plans [Package-1] is JV-M/s Pureways Infra Pvt Ltd & M/s RMSI Pvt Ltd.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "aab15b660a41",
+      "added_at": "2026-03-28T12:41:31.266822+00:00"
+    },
+    {
+      "question": "Which company was awarded the river basin master plan consultancy contract?",
+      "answer": "The company awarded the river basin master plan consultancy contract is JV-M/s Pureways Infra Pvt Ltd & M/s RMSI Pvt Ltd.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "94b3ff214579",
+      "added_at": "2026-03-28T12:41:31.268298+00:00"
+    },
+    {
+      "question": "Name of supplier for Package-1 of 15 River Basin Master Plans",
+      "answer": "The supplier for Package-1 of 15 River Basin Master Plans is JV-M/s Pureways Infra Pvt Ltd & M/s RMSI Pvt Ltd.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "3f7659ca04c7",
+      "added_at": "2026-03-28T12:41:31.269798+00:00"
+    },
+    {
+      "question": "Award date of the river basin master plan consultancy contract",
+      "answer": "The contract for Consultancy Services for preparation of 15 River Basin Master Plans [Package-1] was awarded on 26-11-2024.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "7eea6876d386",
+      "added_at": "2026-03-28T12:41:31.273411+00:00"
+    },
+    {
+      "question": "When did Brahmaputra Board award the master plan consultancy tender?",
+      "answer": "The Brahmaputra Board awarded the master plan consultancy tender on 26-11-2024.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "f82e9b40fc56",
+      "added_at": "2026-03-28T12:41:31.274897+00:00"
+    },
+    {
+      "question": "When will the river basin master plan consultancy work end?",
+      "answer": "The river basin master plan consultancy work is scheduled to end on 26-11-2028.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "d5e1c73b9daf",
+      "added_at": "2026-03-28T12:41:31.278146+00:00"
+    },
+    {
+      "question": "Completion deadline for Package-1 river basin master plan project",
+      "answer": "The completion deadline for Package-1 river basin master plan project is 26-11-2028.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "01ddbcb96154",
+      "added_at": "2026-03-28T12:41:31.279579+00:00"
+    },
+    {
+      "question": "Which office issued the tender for the 15 River Basin Master Plans [Package-1]?",
+      "answer": "The tender for the 15 River Basin Master Plans [Package-1] was issued by the Office of the Chief Engineer I, Brahmaputra Board Head Quarter.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "916ca9e9bff6",
+      "added_at": "2026-03-28T12:41:31.281204+00:00"
+    },
+    {
+      "question": "Procuring office for GEM/2024/B/5279580 tender",
+      "answer": "The procuring office for the GEM/2024/B/5279580 tender is the Office of the Chief Engineer I, Brahmaputra Board Head Quarter.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "17a86f39f448",
+      "added_at": "2026-03-28T12:41:31.282568+00:00"
+    },
+    {
+      "question": "Who released the tender for the river basin master plan consultancy?",
+      "answer": "The tender for the river basin master plan consultancy was released by the Office of the Chief Engineer I, Brahmaputra Board Head Quarter.",
+      "source": "https://brahmaputraboard.gov.in/goods-tender",
+      "id": "13342b173fb6",
+      "added_at": "2026-03-28T12:41:31.284128+00:00"
+    },
+    {
+      "question": "Brahmaputra Board contact email",
+      "answer": "The official email of the Brahmaputra Board is secy-bbrd[at]gov[dot]in.",
+      "source": "https://brahmaputraboard.gov.in/annual-reports",
+      "id": "7e77d11179c0",
+      "added_at": "2026-03-28T12:41:31.286087+00:00"
+    },
+    {
+      "question": "Where can I download Brahmaputra Board annual reports?",
+      "answer": "Brahmaputra Board annual reports can be downloaded from the 'Annual Reports' section of the website, listed with years from 2014-15 to 2024-25.",
+      "source": "https://brahmaputraboard.gov.in/annual-reports",
+      "id": "e22b9261627a",
+      "added_at": "2026-03-28T12:41:31.288052+00:00"
+    },
+    {
+      "question": "List of Brahmaputra Board annual reports available",
+      "answer": "The Brahmaputra Board annual reports available are for the years 2014-15, 2015-16, 2016-17, 2017-18, 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24, and 2024-25.",
+      "source": "https://brahmaputraboard.gov.in/annual-reports",
+      "id": "76401133c40a",
+      "added_at": "2026-03-28T12:41:31.289413+00:00"
+    },
+    {
+      "question": "What years are covered in the Brahmaputra Board annual reports?",
+      "answer": "The Brahmaputra Board annual reports cover the years from 2014-15 to 2024-25.",
+      "source": "https://brahmaputraboard.gov.in/annual-reports",
+      "id": "c14e569449a6",
+      "added_at": "2026-03-28T12:41:31.290936+00:00"
+    },
+    {
+      "question": "Are Brahmaputra Board annual reports from 2014-15 to 2024-25 available online?",
+      "answer": "Yes, Brahmaputra Board annual reports from 2014-15 to 2024-25 are available for download on the website.",
+      "source": "https://brahmaputraboard.gov.in/annual-reports",
+      "id": "ae40f2f87fbc",
+      "added_at": "2026-03-28T12:41:31.292572+00:00"
+    },
+    {
+      "question": "Where can I find the transfer policy for Brahmaputra Board employees?",
+      "answer": "The Transfer Policy of Brahmaputra Board is documented in the 'Transfer Policy of Brahmaputra Board, 2024' available as a policy document.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "65d22062e808",
+      "added_at": "2026-03-28T12:41:31.294144+00:00"
+    },
+    {
+      "question": "Is there a transfer policy issued by Brahmaputra Board in 2024?",
+      "answer": "Yes, the 'Transfer Policy of Brahmaputra Board, 2024' is available as a policy document.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "30d25c7b29f2",
+      "added_at": "2026-03-28T12:41:31.295710+00:00"
+    },
+    {
+      "question": "When was the Brahmaputra Board Transfer Policy last updated?",
+      "answer": "The Transfer Policy of Brahmaputra Board was last updated in 2024, as per the document titled 'Transfer Policy of Brahmaputra Board, 2024'.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "417f7e8559fe",
+      "added_at": "2026-03-28T12:41:31.297197+00:00"
+    },
+    {
+      "question": "Where can I download policy documents of the Brahmaputra Board?",
+      "answer": "Policy documents of the Brahmaputra Board are available for download under the 'Policy Documents' section of the website, including titles like 'Transfer Policy of Brahmaputra Board, 2024' and 'Standard Operating Procedure (SOP) for Handover of scheme completed by Brahmaputra Board'.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "5678e2bf2728",
+      "added_at": "2026-03-28T12:41:31.299280+00:00"
+    },
+    {
+      "question": "List the policy documents issued by Brahmaputra Board.",
+      "answer": "The policy documents issued by Brahmaputra Board include: Reducing Dependency on Physical Records/Files, Constitution of Committee for Review of Scanned Files/Documents, Flood Plain Zoning Proceedings, Installation of sign board at the Project/work site, Committees for Periodic Review of Staff, Brahmaputra Board International Audit Manual, Resource Book – Springshed Management (Final), Transfer Policy of Brahmaputra Board, 2024, Submission of Monthly Progress Reports, SOP for Handover of completed schemes, Compliance with DPR Specifications, Office orders regarding River Basin Master Plan committees, and GST of Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "1724e1da4db3",
+      "added_at": "2026-03-28T12:41:31.300727+00:00"
+    },
+    {
+      "question": "Does Brahmaputra Board have an SOP for handover of completed schemes?",
+      "answer": "Yes, the Brahmaputra Board has a Standard Operating Procedure (SOP) for Handover of schemes completed by the Board, which is available as a policy document.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "40c6347a56be",
+      "added_at": "2026-03-28T12:41:31.302324+00:00"
+    },
+    {
+      "question": "What is the SOP for handing over completed projects in Brahmaputra Board?",
+      "answer": "The Standard Operating Procedure (SOP) for Handover of scheme completed by Brahmaputra Board is available as a policy document on the official website.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "c717a21dcbd9",
+      "added_at": "2026-03-28T12:41:31.303969+00:00"
+    },
+    {
+      "question": "Where can I find the handover procedure for completed schemes of Brahmaputra Board?",
+      "answer": "The Standard Operating Procedure (SOP) for Handover of scheme completed by Brahmaputra Board is available as a downloadable policy document on the official website.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "9f726e21f674",
+      "added_at": "2026-03-28T12:41:31.305645+00:00"
+    },
+    {
+      "question": "Is there a document on flood plain zoning by Brahmaputra Board?",
+      "answer": "Yes, 'Flood Plain Zoning Proceedings' is published as a policy document by the Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "928538885b35",
+      "added_at": "2026-03-28T12:41:31.307247+00:00"
+    },
+    {
+      "question": "Does Brahmaputra Board have an international audit manual?",
+      "answer": "Yes, the 'Brahmaputra Board International Audit Manual' is available as a policy document.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "3ccb6fb7b444",
+      "added_at": "2026-03-28T12:41:31.310364+00:00"
+    },
+    {
+      "question": "What is the name of the audit manual used by Brahmaputra Board?",
+      "answer": "The audit manual used by Brahmaputra Board is called the 'Brahmaputra Board International Audit Manual'.",
+      "source": "https://brahmaputraboard.gov.in/policy-documents",
+      "id": "cc9fde467c61",
+      "added_at": "2026-03-28T12:41:31.312025+00:00"
+    },
+    {
+      "question": "Who is the Nodal Officer for the Rights of Persons with Disabilities Act, 2016 in Brahmaputra Board?",
+      "answer": "The Nodal Officer for the implementation of the Rights of Persons with Disabilities Act, 2016 in Brahmaputra Board is the Executive Engineer, Guwahati Division.",
+      "source": "https://brahmaputraboard.gov.in/person-disabilities",
+      "id": "2602b03b3ebd",
+      "added_at": "2026-03-28T12:41:31.315361+00:00"
+    },
+    {
+      "question": "Which officer handles disability-related issues at Brahmaputra Board?",
+      "answer": "The Executive Engineer, Guwahati Division, serves as the Nodal Officer and Grievance Redressal Officer for the implementation of the Rights of Persons with Disabilities Act, 2016 in Brahmaputra Board.",
+      "source": "https://brahmaputraboard.gov.in/person-disabilities",
+      "id": "a18490155f14",
+      "added_at": "2026-03-28T12:41:31.318615+00:00"
+    },
+    {
+      "question": "What is the phone number of the Nodal Officer for disability matters at Brahmaputra Board?",
+      "answer": "The phone number of the Nodal Officer for disability matters at Brahmaputra Board is 94350-47970.",
+      "source": "https://brahmaputraboard.gov.in/person-disabilities",
+      "id": "6884882ea087",
+      "added_at": "2026-03-28T12:41:31.320584+00:00"
+    },
+    {
+      "question": "How can I contact the disability officer at Brahmaputra Board by phone?",
+      "answer": "You can contact the disability officer at Brahmaputra Board by calling 94350-47970.",
+      "source": "https://brahmaputraboard.gov.in/person-disabilities",
+      "id": "16ecccb79b44",
+      "added_at": "2026-03-28T12:41:31.322508+00:00"
+    },
+    {
+      "question": "What is the contact number for the Grievance Redressal Officer for persons with disabilities at Brahmaputra Board?",
+      "answer": "The contact number for the Grievance Redressal Officer for persons with disabilities at Brahmaputra Board is 94350-47970.",
+      "source": "https://brahmaputraboard.gov.in/person-disabilities",
+      "id": "2e5515997577",
+      "added_at": "2026-03-28T12:41:31.324598+00:00"
+    },
+    {
+      "question": "What is the full postal address of Brahmaputra Board in Assam?",
+      "answer": "The full postal address of Brahmaputra Board in Assam is Brahmaputra Board, Basistha, Guwahati, Assam-781029.",
+      "source": "https://brahmaputraboard.gov.in/person-disabilities",
+      "id": "e4026156e501",
+      "added_at": "2026-03-28T12:41:31.328615+00:00"
+    },
+    {
+      "question": "Latest update on Brahmaputra Board website",
+      "answer": "The Brahmaputra Board website was last updated on Saturday, March 28, 2026.",
+      "source": "https://brahmaputraboard.gov.in/board-meeting-photo",
+      "id": "dfbe6c31e142",
+      "added_at": "2026-03-28T12:41:31.334536+00:00"
+    },
+    {
+      "question": "Brahmaputra Board headquarters location?",
+      "answer": "The headquarters of the Brahmaputra Board is located at Basistha Guwahati-781029, Ministry of Jal Shakti, Government of India.",
+      "source": "https://brahmaputraboard.gov.in/profile-of-minister",
+      "id": "1958305ea035",
+      "added_at": "2026-03-28T12:41:31.343307+00:00"
+    },
+    {
+      "question": "Who supports the Director in the Director's Office of the Brahmaputra Board?",
+      "answer": "The Director in the Director's Office of the Brahmaputra Board is supported by the Assistant Executive Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/nehari",
+      "id": "5692a45053fa",
+      "added_at": "2026-03-28T12:41:31.350732+00:00"
+    },
+    {
+      "question": "Which official assists the Director at the Brahmaputra Board?",
+      "answer": "The Director in the Director's Office of the Brahmaputra Board is supported by the Assistant Executive Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/nehari",
+      "id": "f9b8ef615603",
+      "added_at": "2026-03-28T12:41:31.352421+00:00"
+    },
+    {
+      "question": "Who is the supporting staff for the Director at the Brahmaputra Board?",
+      "answer": "The Director in the Director's Office of the Brahmaputra Board is supported by the Assistant Executive Engineer.",
+      "source": "https://brahmaputraboard.gov.in/regional-office/nehari",
+      "id": "7656d8ebefcf",
+      "added_at": "2026-03-28T12:41:31.354273+00:00"
+    },
+    {
+      "question": "What is the phone number of the North Eastern Hydraulic & Allied Research Institute?",
+      "answer": "The phone number of the North Eastern Hydraulic & Allied Research Institute is 0361-2680155/2680153.",
+      "source": "https://brahmaputraboard.gov.in/nehari/contact",
+      "id": "a6598ca9c8d0",
+      "added_at": "2026-03-28T12:41:31.358112+00:00"
+    },
+    {
+      "question": "How can I contact NEHARI by phone?",
+      "answer": "The phone number of the North Eastern Hydraulic & Allied Research Institute is 0361-2680155/2680153.",
+      "source": "https://brahmaputraboard.gov.in/nehari/contact",
+      "id": "e98b39018594",
+      "added_at": "2026-03-28T12:41:31.359719+00:00"
+    },
+    {
+      "question": "What is the contact number for the Director's Office at NEHARI?",
+      "answer": "The phone number of the North Eastern Hydraulic & Allied Research Institute is 0361-2680155/2680153.",
+      "source": "https://brahmaputraboard.gov.in/nehari/contact",
+      "id": "95d22b8145fd",
+      "added_at": "2026-03-28T12:41:31.361566+00:00"
+    },
+    {
+      "question": "Where is the Director's Office of NEHARI situated?",
+      "answer": "The North Eastern Hydraulic & Allied Research Institute is located at Office of The Director, North Eastern Hydraulic & Allied Research Institute, Brahmaputra Board, Rudreswar, North Guwahati-781030, Assam.",
+      "source": "https://brahmaputraboard.gov.in/nehari/contact",
+      "id": "57b8455c3907",
+      "added_at": "2026-03-28T12:41:31.365352+00:00"
+    },
+    {
+      "question": "What is the email ID for NEHARI?",
+      "answer": "The email ID for NEHARI is neharibboard30[at]gmail[dot]com.",
+      "source": "https://brahmaputraboard.gov.in/nehari/contact",
+      "id": "095808ee4f5d",
+      "added_at": "2026-03-28T12:41:31.366976+00:00"
+    },
+    {
+      "question": "How can I email the North Eastern Hydraulic & Allied Research Institute?",
+      "answer": "The email ID for NEHARI is neharibboard30[at]gmail[dot]com.",
+      "source": "https://brahmaputraboard.gov.in/nehari/contact",
+      "id": "e66ce6b46d71",
+      "added_at": "2026-03-28T12:41:31.368822+00:00"
     }
   ]
 }
