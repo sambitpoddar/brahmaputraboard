@@ -1,13 +1,13 @@
 {
   "meta": {
-    "last_updated": "2026-03-27T00:00:00+00:00",
-    "total_faqs": 40,
-    "pages_scraped": 0,
-    "added_this_run": 40,
+    "last_updated": "2026-03-28T12:27:10.649874+00:00",
+    "pages_processed": 81,
+    "scraped_at": "2026-03-28T12:24:40Z",
+    "total_faqs": 41,
+    "added_this_run": 0,
     "skipped_this_run": 0,
     "source_site": "https://brahmaputraboard.gov.in",
-    "generator": "seed/manual",
-    "note": "Seed file — will be auto-expanded nightly by GitHub Actions"
+    "generator": "Cerebras/gpt-oss-120b"
   },
   "faqs": [
     {
