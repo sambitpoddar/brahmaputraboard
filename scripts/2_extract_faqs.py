@@ -26,7 +26,7 @@ from cerebras.cloud.sdk import Cerebras
 # ─── Config ────────────────────────────────────────────────────────────────
 INPUT_FILE     = "data/raw_pages.json"
 OUTPUT_FILE    = "data/faqs.json"
-MODEL          = "gpt-oss-120b"
+MODEL          = "qwen-3-235b-a22b-instruct-2507"
 SIMILARITY_THR = 0.52
 CEREBRAS_KEY   = os.environ["CEREBRAS_API_KEY"]
 
