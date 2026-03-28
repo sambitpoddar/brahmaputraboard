@@ -1,0 +1,81 @@
+name: Extract FAQs from Scraped Pages
+
+on:
+  # Triggers when you push updated raw_pages.json from your local machine
+  push:
+    branches: [main]
+    paths:
+      - "data/raw_pages.json"
+
+  # Also allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for manual run"
+        required: false
+        default: "Manual trigger"
+
+permissions:
+  contents: write
+
+jobs:
+  extract-faqs:
+    name: Extract & Update FAQs
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install "cerebras-cloud-sdk>=1.0"
+
+      - name: Run FAQ extractor
+        env:
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+        run: |
+          python scripts/2_extract_faqs.py
+
+      - name: Commit updated faqs.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet data/faqs.json 2>/dev/null; then
+            echo "No changes to faqs.json — nothing to commit."
+          else
+            git add data/faqs.json
+            git commit -m "chore(data): update FAQs from scraped pages $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ faqs.json updated and pushed."
+          fi
+
+      - name: Print summary
+        if: always()
+        run: |
+          echo "=== Run Summary ==="
+          echo "Trigger: ${{ github.event_name }}"
+          if [ -f data/faqs.json ]; then
+            python3 -c "
+          import json
+          with open('data/faqs.json') as f:
+              d = json.load(f)
+          m = d.get('meta', {})
+          print(f\"Pages processed : {m.get('pages_processed','?')}\")
+          print(f\"Total FAQs      : {m.get('total_faqs','?')}\")
+          print(f\"Added this run  : {m.get('added_this_run','?')}\")
+          print(f\"Skipped (dupes) : {m.get('skipped_this_run','?')}\")
+          print(f\"Last updated    : {m.get('last_updated','?')}\")
+            "
+          fi
