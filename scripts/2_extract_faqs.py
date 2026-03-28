@@ -52,6 +52,8 @@ STRICT RULES:
 - Each answer must be self-contained (makes sense without reading the question).
 - Questions must be natural queries a real user would type.
 - Prioritise: contact details, dates, names, project info, procedures, deadlines.
+- For each fact, generate 3–4 differently phrased questions that all mean the same thing.
+  Example: "Who is the Chairman?", "Name of the chairman", "Current chairman of Brahmaputra Board", "Who heads the Brahmaputra Board?"
 - Return ONLY valid JSON — an array of objects with keys "question" and "answer".
 - If the page has no FAQ-worthy content, return exactly: []
 - Do NOT wrap output in markdown code fences.
@@ -59,8 +61,8 @@ STRICT RULES:
 EXAMPLE:
 [
   {{
-    "question": "What is the contact email of the Brahmaputra Board?",
-    "answer": "The official email is secy-bbrd[at]gov[dot]in. You can also reach them at bbrd-ghy[at]nic[dot]in."
+    "question": "Who is the Chairman of the Brahmaputra Board?",
+    "answer": "The Chairman of the Brahmaputra Board is Dr. Ranbir Singh, IAS (R)."
   }}
 ]
 
