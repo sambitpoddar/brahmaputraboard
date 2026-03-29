@@ -315,7 +315,14 @@
       "question": "Who is the current General Manager of the Brahmaputra Board?",
       "answer": "The current General Manager of the Brahmaputra Board is Shri Abhay Kumar.",
       "source": "https://brahmaputraboard.gov.in",
-      "id": "bb_added_002",
+      "id": "bb_added_0947",
+      "added_at": "2026-03-28T13:10:00Z"
+    },
+    {
+      "question": "When is the Board Day or Foundation Day of the Brahmaputra Board?",
+      "answer": "The Foundation Day of the Brahmaputra Board is January 11",
+      "source": "https://brahmaputraboard.gov.in",
+      "id": "bb_added_0947",
       "added_at": "2026-03-28T13:10:00Z"
     },
     {
