@@ -2362,7 +2362,8 @@
       "id": "bb_faq_0052",
       "added_at": "2026-03-28T13:10:00Z"
     },
-          "question": "List the functions of the Brahmaputra Board.",
+    {
+      "question": "List the functions of the Brahmaputra Board.",
       "answer": "The Board's main functions include: (1) flood control and bank erosion management, (2) surveys and Master Plan preparation, (3) preparation of Detailed Project Reports (DPRs), (4) hydrological data collection and analysis, (5) assisting NE state governments on flood schemes, and (6) development of irrigation, hydro power, and navigation projects in the Brahmaputra and Barak basins.",
       "source": "https://brahmaputraboard.gov.in",
       "id": "bb_faq_0038",
