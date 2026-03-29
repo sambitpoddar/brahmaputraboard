@@ -298,6 +298,27 @@
       "added_at": "2026-03-27T00:00:00+00:00"
     },
     {
+      "question": "Who is the Chairman of the Brahmaputra Board?",
+      "answer": "The current Chairman of the Brahmaputra Board is Dr. Ranbir Singh, IAS (Retired).",
+      "source": "https://brahmaputraboard.gov.in",
+      "id": "bb_added_001",
+      "added_at": "2026-03-28T13:10:00Z"
+    },
+    {
+      "question": "Who is the current head of the Brahmaputra Board?",
+      "answer": "The current Chairman of the Brahmaputra Board is Dr. Ranbir Singh, IAS (Retired).",
+      "source": "https://brahmaputraboard.gov.in",
+      "id": "bb_added_002",
+      "added_at": "2026-03-28T13:10:00Z"
+    },
+    {
+      "question": "Who is the current General Manager of the Brahmaputra Board?",
+      "answer": "The current General Manager of the Brahmaputra Board is Shri Abhay Kumar.",
+      "source": "https://brahmaputraboard.gov.in",
+      "id": "bb_added_002",
+      "added_at": "2026-03-28T13:10:00Z"
+    },
+    {
       "question": "Brahmaputra Board Guwahati address",
       "answer": "The address of the Brahmaputra Board is Brahmaputra Board, Ministry of Jal Shakti, Government of India, Basistha Guwahati-781029.",
       "source": "https://brahmaputraboard.gov.in/photo-gallery",
@@ -1696,20 +1717,6 @@
       "source": "https://brahmaputraboard.gov.in/nehari/contact",
       "id": "e66ce6b46d71",
       "added_at": "2026-03-28T12:41:31.368822+00:00"
-    },
-    {
-      "question": "Who is the Chairman of the Brahmaputra Board?",
-      "answer": "The Chairman of the Brahmaputra Board is Dr. Ranbir Singh, IAS (Retired).",
-      "source": "https://brahmaputraboard.gov.in",
-      "id": "bb_added_001",
-      "added_at": "2026-03-28T13:10:00Z"
-    },
-    {
-      "question": "Who is the current head of the Brahmaputra Board?",
-      "answer": "The current Chairman of the Brahmaputra Board is Dr. Ranbir Singh, IAS (Retired).",
-      "source": "https://brahmaputraboard.gov.in",
-      "id": "bb_added_002",
-      "added_at": "2026-03-28T13:10:00Z"
     },
     {
       "question": "What is the Brahmaputra Board?",
@@ -3291,6 +3298,13 @@
       "answer": "G.S.R. 677(E) dated December 28, 1981 is the official gazette notification issued by the Central Government to bring the Brahmaputra Board Act, 1980 into force with effect from December 31, 1981. This is the formal legal commencement notification that activated the Act, after which the Board became operational at its Guwahati headquarters on January 11, 1982.",
       "source": "https://brahmaputraboard.gov.in",
       "id": "bb_faq_0541",
+      "added_at": "2026-03-28T13:10:00Z"
+    },
+    {
+      "question": "Where were you trained?",
+      "answer": "I was trained on Google Colab by Upasana Poddar.",
+      "source": "https://brahmaputraboard.gov.in",
+      "id": "bb_faq_0991",
       "added_at": "2026-03-28T13:10:00Z"
     }
   ]
