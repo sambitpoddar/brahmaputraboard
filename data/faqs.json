@@ -81,13 +81,6 @@
       "added_at": "2026-03-27T00:00:00+00:00"
     },
     {
-      "id": "e6f7a2b3c4d5",
-      "question": "How many members does the Brahmaputra Board have?",
-      "answer": "The Brahmaputra Board has 21 Members — 4 full-time and 17 part-time. Members represent all 7 NE states, the North-Eastern Council (NEC), Central Water Commission (CWC), Geological Survey of India (GSI), India Meteorological Department (IMD), Central Electricity Authority (CEA), and key central ministries.",
-      "source": "seed",
-      "added_at": "2026-03-27T00:00:00+00:00"
-    },
-    {
       "id": "f7a2b3c4d5e6",
       "question": "How do I file an RTI with the Brahmaputra Board?",
       "answer": "To file an RTI: address your application to the designated Public Information Officer (PIO), Brahmaputra Board, Basistha, Guwahati – 781029. The prescribed fee is ₹10. You can also use the online RTI portal at https://rtionline.gov.in. The list of PIOs and Appellate Authorities is published on the official website brahmaputraboard.gov.in.",
@@ -210,13 +203,6 @@
       "id": "e9f0a5b6c7d8",
       "question": "What projects is the Brahmaputra Board doing in Mizoram?",
       "answer": "In Mizoram, the Brahmaputra Board is preparing Detailed Project Reports (DPRs) for three rivers: Chitelui River in Kolasib district, Tuiphai River in Serchip district, and Tuipui River in Champhai district.",
-      "source": "seed",
-      "added_at": "2026-03-27T00:00:00+00:00"
-    },
-    {
-      "id": "f0a5b6c7d8e9",
-      "question": "What organisations are represented in the Brahmaputra Board?",
-      "answer": "The Board's 21 members represent: all 7 NE states, the North-Eastern Council (NEC), Central Water Commission (CWC), Geological Survey of India (GSI), India Meteorological Department (IMD), Central Electricity Authority (CEA), and the Ministries of Jal Shakti, Agriculture, Finance, and Power & Surface Transport. Special invitees include representatives from DoNER, Sikkim, West Bengal, and the Planning Commission.",
       "source": "seed",
       "added_at": "2026-03-27T00:00:00+00:00"
     },
@@ -940,13 +926,6 @@
       "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
       "id": "ef1910e59e14",
       "added_at": "2026-03-28T12:41:31.011370+00:00"
-    },
-    {
-      "question": "Who are the members of the Brahmaputra Board?",
-      "answer": "The Brahmaputra Board consists of 21 members: 4 full-time members and 17 part-time members representing seven states of the North Eastern Region, the North Eastern Council, concerned ministries (Ministry of Jal Shakti, Agriculture, Finance, Power, and Surface Transport), and departments of the Government of India (Central Water Commission, Geological Survey of India, India Meteorological Department, and the Central Electricity Authority).",
-      "source": "https://brahmaputraboard.gov.in/history-of-brahmaputra-board",
-      "id": "61db212812de",
-      "added_at": "2026-03-28T12:41:31.012663+00:00"
     },
     {
       "question": "When was the webpage last updated?",
