@@ -284,6 +284,20 @@
       "added_at": "2026-03-27T00:00:00+00:00"
     },
     {
+      "id": "e1f0a67ec9d0",
+      "question": "Who is the current Prime Minister or PM of India?",
+      "answer": "The current Prime Minister of India is Shri Narendra Modi.",
+      "source": "seed",
+      "added_at": "2026-03-27T00:00:00+00:00"
+    },
+    {
+      "id": "f1345a67e5d0",
+      "question": "Who is the current Union Minister of Jal Shakti or the minister who is responsible to oversee Brahmaputra Board?",
+      "answer": "The Brahmaputra Board is overseen by the Union Minister of Jal Shakti, currently Shri C R Paatil.",
+      "source": "seed",
+      "added_at": "2026-03-27T00:00:00+00:00"
+    },
+    {
       "question": "Who is the Chairman of the Brahmaputra Board?",
       "answer": "The current Chairman of the Brahmaputra Board is Dr. Ranbir Singh, IAS (Retired).",
       "source": "https://brahmaputraboard.gov.in",
