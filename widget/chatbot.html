@@ -1,258 +1,346 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Brahmaputra Board – AI Assistant</title>
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║  BRAHMAPUTRA BOARD CHATBOT WIDGET                               ║
-  ║  • 100% free — no API keys, no server costs                     ║
-  ║  • Reads from GitHub-hosted faqs.json (auto-updated nightly)    ║
-  ║  • Pure HTML / CSS / JS — zero dependencies                     ║
-  ║                                                                  ║
-  ║  HOW TO EMBED:                                                   ║
-  ║  1. Set FAQS_URL below to your GitHub raw faqs.json URL         ║
-  ║  2. Paste <style> into your site's <head>                        ║
-  ║  3. Paste <div id="bb-widget"> before </body>                    ║
-  ║  4. Paste <script> just before </body>                           ║
-  ╚══════════════════════════════════════════════════════════════════╝
--->
 <style>
-/* ════════════════════════════════════════════════════
-   WIDGET CSS — copy into <head>
-   ════════════════════════════════════════════════════ */
 :root{
-  --bb-accent:#0071e3;--bb-accent-d:#0058c3;
-  --bb-surface:rgba(252,252,253,.91);--bb-border:rgba(0,0,0,.08);
-  --bb-text:#1d1d1f;--bb-sub:#6e6e73;
-  --bb-user:#0071e3;--bb-bot:rgba(242,242,247,.97);
-  --bb-font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;
-  --bb-shadow:0 14px 50px rgba(0,0,0,.16),0 2px 8px rgba(0,0,0,.08);
-  --bb-w:378px;--bb-h:574px;
+  --jhrn-accent:#0071e3;--jhrn-accent-d:#0058c3;
+  --jhrn-surface:rgba(252,252,253,.91);--jhrn-border:rgba(0,0,0,.08);
+  --jhrn-text:#1d1d1f;--jhrn-sub:#6e6e73;
+  --jhrn-user:#0071e3;--jhrn-bot:rgba(242,242,247,.97);
+  --jhrn-font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;
+  --jhrn-shadow:0 14px 50px rgba(0,0,0,.16),0 2px 8px rgba(0,0,0,.08);
+  --jhrn-w:378px;--jhrn-h:574px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:var(--bb-font);background:#f2f2f7;color:var(--bb-text);min-height:100vh}
-
-/* Demo page wrapper — remove when embedding */
-.demo{max-width:800px;margin:0 auto;padding:56px 24px 180px}
-.demo-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(0,113,227,.08);border:1px solid rgba(0,113,227,.18);border-radius:20px;padding:4px 13px;font-size:11px;font-weight:600;color:#0071e3;letter-spacing:.07em;text-transform:uppercase;margin-bottom:24px}
-.demo-badge b{width:6px;height:6px;background:#30d158;border-radius:50%;display:inline-block}
-.demo-hd{display:flex;align-items:center;gap:14px;margin-bottom:36px}
-.demo-logo{width:52px;height:52px;border-radius:15px;background:linear-gradient(135deg,#0071e3,#00c7be);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,113,227,.28);flex-shrink:0}
-.demo-org{font-size:11px;font-weight:500;color:var(--bb-sub);letter-spacing:.07em;text-transform:uppercase;margin-bottom:2px}
-.demo-name{font-size:21px;font-weight:700;letter-spacing:-.4px}
-.card{background:#fff;border-radius:18px;padding:34px;box-shadow:0 2px 12px rgba(0,0,0,.05);margin-bottom:16px}
-.card h2{font-size:19px;font-weight:700;letter-spacing:-.3px;margin-bottom:9px}
-.card p{font-size:14px;line-height:1.72;color:#424245}
-.card p+p{margin-top:8px}
-.pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
-.pill{padding:4px 12px;border-radius:20px;font-size:11px;font-weight:500;background:#f2f2f7;color:var(--bb-sub);border:1px solid rgba(0,0,0,.07)}
-code{background:#f2f2f7;padding:2px 6px;border-radius:5px;font-size:12px}
+body{font-family:var(--jhrn-font);background:#f2f2f7;color:var(--jhrn-text);min-height:100vh}
+.jhrn-demo{max-width:800px;margin:0 auto;padding:56px 24px 180px}
+.jhrn-demo-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(0,113,227,.08);border:1px solid rgba(0,113,227,.18);border-radius:20px;padding:4px 13px;font-size:11px;font-weight:600;color:#0071e3;letter-spacing:.07em;text-transform:uppercase;margin-bottom:24px}
+.jhrn-demo-badge b{width:6px;height:6px;background:#30d158;border-radius:50%;display:inline-block}
+.jhrn-demo-hd{display:flex;align-items:center;gap:14px;margin-bottom:36px}
+.jhrn-demo-logo{width:52px;height:52px;border-radius:15px;background:linear-gradient(135deg,#0071e3,#00c7be);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,113,227,.28);flex-shrink:0}
+.jhrn-demo-org{font-size:11px;font-weight:500;color:var(--jhrn-sub);letter-spacing:.07em;text-transform:uppercase;margin-bottom:2px}
+.jhrn-demo-name{font-size:21px;font-weight:700;letter-spacing:-.4px}
+.jhrn-card{background:#fff;border-radius:18px;padding:34px;box-shadow:0 2px 12px rgba(0,0,0,.05);margin-bottom:16px}
+.jhrn-card h2{font-size:19px;font-weight:700;letter-spacing:-.3px;margin-bottom:9px}
+.jhrn-card p{font-size:14px;line-height:1.72;color:#424245}
+.jhrn-card p+p{margin-top:8px}
+.jhrn-pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+.jhrn-pill{padding:4px 12px;border-radius:20px;font-size:11px;font-weight:500;background:#f2f2f7;color:var(--jhrn-sub);border:1px solid rgba(0,0,0,.07)}
+.jhrn-code{background:#f2f2f7;padding:2px 6px;border-radius:5px;font-size:12px}
 
 /* ── Toggle button ── */
-#bb-btn{position:fixed;bottom:26px;right:26px;width:62px;height:62px;border-radius:50%;background:linear-gradient(150deg,#1a8cff,#0050c4);border:none;cursor:pointer;z-index:10000;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,113,227,.44),0 1px 4px rgba(0,0,0,.1);transition:transform .28s cubic-bezier(.34,1.56,.64,1),box-shadow .25s;outline:none;-webkit-tap-highlight-color:transparent;overflow:hidden}
-#bb-btn::before{content:'';position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 36% 28%,rgba(255,255,255,.22),transparent 62%)}
-#bb-btn:hover{transform:scale(1.1);box-shadow:0 8px 28px rgba(0,113,227,.56)}
-#bb-btn:active{transform:scale(.91)}
-.bic{position:absolute;transition:opacity .22s,transform .28s cubic-bezier(.34,1.56,.64,1)}
-.bic-close{opacity:0;transform:rotate(-80deg) scale(.6)}
-#bb-btn.open .bic-chat{opacity:0;transform:rotate(80deg) scale(.6)}
-#bb-btn.open .bic-close{opacity:1;transform:rotate(0) scale(1)}
-#bb-dot{position:absolute;top:8px;right:8px;width:10px;height:10px;background:#ff3b30;border-radius:50%;border:2.5px solid #fff;animation:dotpop .4s cubic-bezier(.34,1.56,.64,1) 1s both;transition:opacity .2s,transform .2s}
-@keyframes dotpop{from{opacity:0;transform:scale(0)}to{opacity:1;transform:scale(1)}}
-#bb-btn.open #bb-dot{opacity:0;transform:scale(0)}
+#jhrn-btn{position:fixed;bottom:100px;right:26px;width:62px;height:62px;border-radius:50%;background:linear-gradient(150deg,#1a8cff,#0050c4);border:none;cursor:pointer;z-index:10000;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,113,227,.44),0 1px 4px rgba(0,0,0,.1);transition:transform .28s cubic-bezier(.34,1.56,.64,1),box-shadow .25s;outline:none;-webkit-tap-highlight-color:transparent;overflow:hidden}
+#jhrn-btn::before{content:'';position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 36% 28%,rgba(255,255,255,.22),transparent 62%)}
+#jhrn-btn:hover{transform:scale(1.1);box-shadow:0 8px 28px rgba(0,113,227,.56)}
+#jhrn-btn:active{transform:scale(.91)}
+.jhrn-bic{position:absolute;transition:opacity .22s,transform .28s cubic-bezier(.34,1.56,.64,1)}
+.jhrn-bic-close{opacity:0;transform:rotate(-80deg) scale(.6)}
+#jhrn-btn.jhrn-open .jhrn-bic-chat{opacity:0;transform:rotate(80deg) scale(.6)}
+#jhrn-btn.jhrn-open .jhrn-bic-close{opacity:1;transform:rotate(0) scale(1)}
+#jhrn-dot{position:absolute;top:8px;right:8px;width:10px;height:10px;background:#ff3b30;border-radius:50%;border:2.5px solid #fff;animation:jhrn-dotpop .4s cubic-bezier(.34,1.56,.64,1) 1s both;transition:opacity .2s,transform .2s}
+@keyframes jhrn-dotpop{from{opacity:0;transform:scale(0)}to{opacity:1;transform:scale(1)}}
+#jhrn-btn.jhrn-open #jhrn-dot{opacity:0;transform:scale(0)}
 
 /* ── Chat panel ── */
-#bb-panel{position:fixed;bottom:100px;right:26px;width:var(--bb-w);height:var(--bb-h);background:var(--bb-surface);-webkit-backdrop-filter:saturate(200%) blur(48px);backdrop-filter:saturate(200%) blur(48px);border:1px solid var(--bb-border);border-radius:22px;box-shadow:var(--bb-shadow);z-index:9999;display:flex;flex-direction:column;overflow:hidden;transform:translateY(24px) scale(.95);opacity:0;pointer-events:none;transition:transform .38s cubic-bezier(.34,1.25,.64,1),opacity .25s}
-#bb-panel.open{transform:none;opacity:1;pointer-events:all}
+#jhrn-panel{position:fixed;bottom:170px;right:26px;width:var(--jhrn-w);height:var(--jhrn-h);background:var(--jhrn-surface);-webkit-backdrop-filter:saturate(200%) blur(48px);backdrop-filter:saturate(200%) blur(48px);border:1px solid var(--jhrn-border);border-radius:22px;box-shadow:var(--jhrn-shadow);z-index:9999;display:flex;flex-direction:column;overflow:hidden;transform:translateY(24px) scale(.95);opacity:0;pointer-events:none;transition:transform .38s cubic-bezier(.34,1.25,.64,1),opacity .25s}
+#jhrn-panel.jhrn-open{transform:none;opacity:1;pointer-events:all}
 
 /* Header */
-#bb-hd{display:flex;align-items:center;gap:10px;padding:14px 15px 12px;background:rgba(255,255,255,.7);border-bottom:1px solid rgba(0,0,0,.06);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);flex-shrink:0}
-.hav{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#0071e3,#00c7be);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-#bb-hi{flex:1;min-width:0}
-#bb-hn{font-size:13.5px;font-weight:600;color:var(--bb-text);letter-spacing:-.1px}
-#bb-hs{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--bb-sub);margin-top:1px}
-.sdot{width:6px;height:6px;background:#30d158;border-radius:50%;animation:pulse 2.6s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-/* Last-updated badge in header */
-#bb-updated{font-size:10px;color:#aeaeb2;margin-top:1px;display:none}
+#jhrn-hd{display:flex;align-items:center;gap:10px;padding:14px 15px 12px;background:rgba(255,255,255,.7);border-bottom:1px solid rgba(0,0,0,.06);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);flex-shrink:0}
+.jhrn-hav{width:42px;height:42px;border-radius:50%;overflow:hidden;flex-shrink:0;display:flex;}
+#jhrn-hi{flex:1;min-width:0}
+#jhrn-hn{font-size:13.5px;font-weight:600;color:var(--jhrn-text);letter-spacing:-.1px}
+#jhrn-hs{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--jhrn-sub);margin-top:1px}
+.jhrn-sdot{width:6px;height:6px;background:#30d158;border-radius:50%;animation:jhrn-pulse 2.6s infinite}
+@keyframes jhrn-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+#jhrn-updated{font-size:10px;color:#aeaeb2;margin-top:1px;display:none}
 
-#bb-clr{width:28px;height:28px;border:none;cursor:pointer;border-radius:50%;background:rgba(0,0,0,.05);display:flex;align-items:center;justify-content:center;transition:background .15s;outline:none;flex-shrink:0}
-#bb-clr:hover{background:rgba(0,0,0,.1)}
+#jhrn-clr{width:28px;height:28px;border:none;cursor:pointer;border-radius:50%;background:rgba(0,0,0,.05);display:flex;align-items:center;justify-content:center;transition:background .15s;outline:none;flex-shrink:0}
+#jhrn-clr:hover{background:rgba(0,0,0,.1)}
 
 /* Suggestions */
-#bb-sq{display:flex;gap:6px;padding:8px 11px 7px;overflow-x:auto;flex-shrink:0;scrollbar-width:none;border-bottom:1px solid rgba(0,0,0,.05)}
-#bb-sq::-webkit-scrollbar{display:none}
-.sq{white-space:nowrap;padding:5px 12px;background:rgba(0,113,227,.07);border:1px solid rgba(0,113,227,.16);border-radius:20px;font-size:11.5px;font-weight:500;color:#0071e3;cursor:pointer;font-family:var(--bb-font);flex-shrink:0;transition:background .15s,transform .12s}
-.sq:hover{background:rgba(0,113,227,.14);transform:translateY(-1px)}
-.sq:active{transform:scale(.96)}
+#jhrn-sq{display:flex;gap:6px;padding:8px 11px 7px;overflow-x:auto;flex-shrink:0;scrollbar-width:none;border-bottom:1px solid rgba(0,0,0,.05)}
+#jhrn-sq::-webkit-scrollbar{display:none}
+.jhrn-sq-chip{white-space:nowrap;padding:5px 12px;background:rgba(0,113,227,.07);border:1px solid rgba(0,113,227,.16);border-radius:20px;font-size:11.5px;font-weight:500;color:#0071e3;cursor:pointer;font-family:var(--jhrn-font);flex-shrink:0;transition:background .15s,transform .12s}
+.jhrn-sq-chip:hover{background:rgba(0,113,227,.14);transform:translateY(-1px)}
+.jhrn-sq-chip:active{transform:scale(.96)}
 
 /* Messages */
-#bb-msgs{flex:1;overflow-y:auto;padding:13px 11px;display:flex;flex-direction:column;gap:8px;scroll-behavior:smooth}
-#bb-msgs::-webkit-scrollbar{width:3px}
-#bb-msgs::-webkit-scrollbar-thumb{background:rgba(0,0,0,.1);border-radius:4px}
+#jhrn-msgs{flex:1;overflow-y:auto;padding:13px 11px 80px;display:flex;flex-direction:column;gap:8px;scroll-behavior:smooth;position:relative}
+#jhrn-msgs::-webkit-scrollbar{width:3px}
+#jhrn-msgs::-webkit-scrollbar-thumb{background:rgba(0,0,0,.1);border-radius:4px}
 
 /* Loading state */
-#bb-loading{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;gap:12px;padding:20px}
-.bb-spinner{width:28px;height:28px;border:2.5px solid rgba(0,113,227,.15);border-top-color:#0071e3;border-radius:50%;animation:spin .8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-#bb-loading p{font-size:12.5px;color:var(--bb-sub);text-align:center}
+#jhrn-loading{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;gap:12px;padding:20px}
+.jhrn-spinner{width:28px;height:28px;border:2.5px solid rgba(0,113,227,.15);border-top-color:#0071e3;border-radius:50%;animation:jhrn-spin .8s linear infinite}
+@keyframes jhrn-spin{to{transform:rotate(360deg)}}
+#jhrn-loading p{font-size:12.5px;color:var(--jhrn-sub);text-align:center}
 
 /* Error state */
-#bb-err{display:none;flex-direction:column;align-items:center;justify-content:center;flex:1;gap:10px;padding:20px;text-align:center}
-#bb-err p{font-size:13px;color:var(--bb-sub)}
-#bb-retry{padding:8px 20px;background:var(--bb-accent);color:#fff;border:none;border-radius:20px;cursor:pointer;font-size:13px;font-weight:500;font-family:var(--bb-font)}
-#bb-retry:hover{background:var(--bb-accent-d)}
+#jhrn-err{display:none;flex-direction:column;align-items:center;justify-content:center;flex:1;gap:10px;padding:20px;text-align:center}
+#jhrn-err p{font-size:13px;color:var(--jhrn-sub)}
+#jhrn-retry{padding:8px 20px;background:var(--jhrn-accent);color:#fff;border:none;border-radius:20px;cursor:pointer;font-size:13px;font-weight:500;font-family:var(--jhrn-font)}
+#jhrn-retry:hover{background:var(--jhrn-accent-d)}
 
 /* Welcome */
-#bb-wl{display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;flex:1;padding:18px;gap:9px;min-height:150px}
-.wico{width:52px;height:52px;border-radius:15px;background:linear-gradient(135deg,#0071e3,#00c7be);display:flex;align-items:center;justify-content:center;box-shadow:0 5px 16px rgba(0,113,227,.28);margin-bottom:2px}
-#bb-wl h3{font-size:15px;font-weight:600;letter-spacing:-.2px}
-#bb-wl p{font-size:12.5px;color:var(--bb-sub);line-height:1.55;max-width:235px}
+#jhrn-wl{display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;flex:1;padding:18px;gap:9px;min-height:150px}
+.jhrn-wico{width:100px;height:100px;border-radius:15px;overflow:hidden;display:flex;}
+#jhrn-wl h3{font-size:15px;font-weight:600;letter-spacing:-.2px}
+#jhrn-wl p{font-size:12.5px;color:var(--jhrn-sub);line-height:1.55;max-width:235px}
 
 /* Bubbles */
-.br{display:flex;align-items:flex-end;gap:7px;animation:brin .28s cubic-bezier(.34,1.3,.64,1) both}
-@keyframes brin{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
-.br.user{flex-direction:row-reverse}
-.rav{width:24px;height:24px;border-radius:50%;flex-shrink:0;margin-bottom:2px;background:linear-gradient(135deg,#0071e3,#00c7be);display:flex;align-items:center;justify-content:center}
-.bb{max-width:83%;padding:9px 13px;border-radius:16px;font-size:13.5px;line-height:1.57;font-family:var(--bb-font);word-break:break-word}
-.br.bot .bb{background:var(--bb-bot);color:var(--bb-text);border-bottom-left-radius:4px;border:1px solid rgba(0,0,0,.07)}
-.br.user .bb{background:var(--bb-user);color:#fff;border-bottom-right-radius:4px}
-.bb strong{font-weight:600}
-.bb ul{padding-left:16px;margin:4px 0}
-.bb li{margin-bottom:3px}
-.bb a{color:#0071e3;text-decoration:underline}
-.br.user .bb a{color:rgba(255,255,255,.85)}
-.bb .src{display:block;margin-top:6px;font-size:10.5px;color:#aeaeb2}
-.bb .src a{color:#aeaeb2}
+.jhrn-br{display:flex;align-items:flex-end;gap:7px;animation:jhrn-brin .28s cubic-bezier(.34,1.3,.64,1) both}
+@keyframes jhrn-brin{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
+.jhrn-br.jhrn-user{flex-direction:row-reverse}
+.jhrn-rav{width:32px;height:32px;border-radius:50%;flex-shrink:0;margin-bottom:2px;overflow:hidden;display:flex;}
+.jhrn-bb{max-width:83%;padding:9px 13px;border-radius:16px;font-size:13.5px;line-height:1.57;font-family:var(--jhrn-font);word-break:break-word}
+.jhrn-br.jhrn-bot .jhrn-bb{background:var(--jhrn-bot);color:var(--jhrn-text);border-bottom-left-radius:4px;border:1px solid rgba(0,0,0,.07)}
+.jhrn-br.jhrn-user .jhrn-bb{background:var(--jhrn-user);color:#fff;border-bottom-right-radius:4px}
+.jhrn-bb strong{font-weight:600}
+.jhrn-bb ul{padding-left:16px;margin:4px 0}
+.jhrn-bb li{margin-bottom:3px}
+.jhrn-bb a{color:#0071e3;text-decoration:underline}
+.jhrn-br.jhrn-user .jhrn-bb a{color:rgba(255,255,255,.85)}
+.jhrn-bb .jhrn-src{display:block;margin-top:6px;font-size:10.5px;color:#aeaeb2}
+.jhrn-bb .jhrn-src a{color:#aeaeb2}
 
-/* Typing */
-.ty{display:flex;align-items:center;gap:4px;padding:11px 14px;background:var(--bb-bot);border:1px solid rgba(0,0,0,.07);border-radius:16px;border-bottom-left-radius:4px;max-width:60px}
-.ty span{width:5px;height:5px;background:#bbb;border-radius:50%;animation:tdot 1.1s ease-in-out infinite}
-.ty span:nth-child(2){animation-delay:.18s}
-.ty span:nth-child(3){animation-delay:.36s}
-@keyframes tdot{0%,60%,100%{transform:translateY(0);opacity:.3}30%{transform:translateY(-5px);opacity:1}}
+/* Typing indicator */
+.jhrn-ty{display:flex;align-items:center;gap:4px;padding:11px 14px;background:var(--jhrn-bot);border:1px solid rgba(0,0,0,.07);border-radius:16px;border-bottom-left-radius:4px;max-width:60px}
+.jhrn-ty span{width:5px;height:5px;background:#bbb;border-radius:50%;animation:jhrn-tdot 1.1s ease-in-out infinite}
+.jhrn-ty span:nth-child(2){animation-delay:.18s}
+.jhrn-ty span:nth-child(3){animation-delay:.36s}
+@keyframes jhrn-tdot{0%,60%,100%{transform:translateY(0);opacity:.3}30%{transform:translateY(-5px);opacity:1}}
 
-/* Input */
-#bb-ft{padding:10px 11px 12px;flex-shrink:0;border-top:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
-#bb-ir{display:flex;align-items:flex-end;gap:7px;background:rgba(118,118,128,.09);border:1.5px solid rgba(0,0,0,.09);border-radius:22px;padding:5px 5px 5px 12px;transition:border-color .2s,box-shadow .2s}
-#bb-ir:focus-within{border-color:rgba(0,113,227,.45);box-shadow:0 0 0 3px rgba(0,113,227,.1)}
-#bb-in{flex:1;border:none;background:transparent;font-family:var(--bb-font);font-size:13.5px;color:var(--bb-text);resize:none;outline:none;max-height:94px;min-height:22px;line-height:1.5;padding:3px 0}
-#bb-in::placeholder{color:#aeaeb2}
-#bb-snd{width:32px;height:32px;border-radius:50%;border:none;background:var(--bb-accent);cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s,transform .15s;outline:none}
-#bb-snd:hover{background:var(--bb-accent-d);transform:scale(1.06)}
-#bb-snd:active{transform:scale(.92)}
-#bb-snd:disabled{background:#d1d1d6;cursor:not-allowed;transform:none}
-#bb-cr{text-align:center;font-size:10px;color:#ccc;margin-top:6px}
+/* ── Floating pill input ── */
+#jhrn-ft{
+  position:absolute;
+  bottom:12px;
+  left:12px;
+  right:12px;
+  z-index:10;
+  background:transparent;
+}
+#jhrn-ir{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  background:#ffffff;
+  border:1.5px solid rgba(0,0,0,.08);
+  border-radius:999px;
+  padding:0 6px 0 16px;
+  box-shadow:0 2px 12px rgba(0,0,0,.03);
+  transition:border-color .2s;
+  min-height:44px;
+}
+#jhrn-ir:focus-within{
+  border-color:rgba(0,0,0,.2);
+}
+#jhrn-in{
+  flex:1;
+  border:none;
+  background:transparent;
+  font-family:var(--jhrn-font);
+  font-size:13.5px;
+  color:var(--jhrn-text);
+  resize:none;
+  outline:none;
+  max-height:94px;
+  line-height:1.5;
+  padding:11px 0;
+  align-self:center;
+}
+#jhrn-in::placeholder{
+  color:#aaa8a8;
+}
+
+/* Scroll-down button */
+#jhrn-scroll-btn {
+  position: absolute;
+  bottom: 90px;        /* ← was 70px */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.12);
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  transition: opacity .2s, transform .2s;
+  outline: none;
+}
+#jhrn-scroll-btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,.18); }
+
+/* Send button */
+#jhrn-snd{
+  width:32px;height:32px;
+  border-radius:50%;border:none;
+  background:var(--jhrn-accent);
+  cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  transition:background .15s,transform .15s;
+  outline:none;
+  align-self:center;
+}
+#jhrn-snd:hover{background:var(--jhrn-accent-d);transform:scale(1.06)}
+#jhrn-snd:active{transform:scale(.92)}
+#jhrn-snd:disabled{background:#d1d1d6;cursor:not-allowed;transform:none}
+
+/* Mic button */
+#jhrn-mic{
+  width:32px;height:32px;
+  border-radius:50%;border:none;
+  background:transparent;
+  cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  transition:background .15s,transform .15s;
+  outline:none;
+  align-self:center;
+}
+#jhrn-mic:hover{background:rgba(0,0,0,.07);transform:scale(1.06)}
+#jhrn-mic:active{transform:scale(.92)}
+#jhrn-mic.jhrn-mic-active{background:rgba(255,59,48,.12);}
+#jhrn-mic.jhrn-mic-active svg{stroke:#ff3b30;}
+#jhrn-mic.jhrn-mic-active circle{fill:rgba(255,59,48,.15);}
+
+#jhrn-cr{text-align:center;font-size:10px;color:#aaa8a8;margin-top:6px}
 
 @media(max-width:430px){
-  :root{--bb-w:calc(100vw - 20px);--bb-h:73vh}
-  #bb-panel{right:10px;bottom:84px}
-  #bb-btn{right:14px;bottom:14px}
+  :root{--jhrn-w:calc(100vw - 20px);--jhrn-h:73vh}
+  #jhrn-panel{right:10px;bottom:184px}   /* ← adjust accordingly */
+  #jhrn-btn{right:14px;bottom:114px}
 }
 </style>
 </head>
 <body>
 
 <!-- DEMO PAGE — remove when embedding -->
-<div class="demo">
-  <div class="demo-badge"><b></b> Live · Auto-Updated Nightly</div>
-  <div class="demo-hd">
-    <div class="demo-logo">
+<div class="jhrn-demo">
+  <div class="jhrn-demo-badge"><b></b> Live · Auto-Updated Nightly</div>
+  <div class="jhrn-demo-hd">
+    <div class="jhrn-demo-logo">
       <svg width="27" height="27" viewBox="0 0 27 27" fill="none"><path d="M13.5 3C7.7 3 3 7.4 3 12.85c0 2.35.9 4.5 2.4 6.15L4.2 23.5l4.3-1.3a10.4 10.4 0 005 1.3c5.8 0 10.5-4.4 10.5-9.85S19.3 3 13.5 3z" fill="white"/></svg>
     </div>
     <div>
-      <div class="demo-org">Ministry of Jal Shakti · Government of India</div>
-      <div class="demo-name">Brahmaputra Board</div>
+      <div class="jhrn-demo-org">Ministry of Jal Shakti · Government of India</div>
+      <div class="jhrn-demo-name">Brahmaputra Board</div>
     </div>
   </div>
-  <div class="card">
+  <div class="jhrn-card">
     <h2>Self-Updating AI Chatbot</h2>
     <p>This widget reads from a <strong>GitHub-hosted FAQ database</strong> that is automatically refreshed every night via GitHub Actions + Cerebras AI. The bot scrapes brahmaputraboard.gov.in, extracts new Q&amp;A pairs, deduplicates, and commits the result — completely free, forever.</p>
     <p>Click the <strong>blue button</strong> in the bottom-right corner to try it.</p>
-    <div class="pills">
-      <span class="pill">✦ Free Forever</span>
-      <span class="pill">✦ No API Keys in Widget</span>
-      <span class="pill">✦ Auto-Updated Nightly</span>
-      <span class="pill">✦ Smart Deduplication</span>
-      <span class="pill">✦ GitHub Actions Backend</span>
-      <span class="pill">✦ Cerebras AI Extraction</span>
-      <span class="pill">✦ ~16 KB Widget</span>
+    <div class="jhrn-pills">
+      <span class="jhrn-pill">✦ Free Forever</span>
+      <span class="jhrn-pill">✦ No API Keys in Widget</span>
+      <span class="jhrn-pill">✦ Auto-Updated Nightly</span>
+      <span class="jhrn-pill">✦ Smart Deduplication</span>
+      <span class="jhrn-pill">✦ GitHub Actions Backend</span>
+      <span class="jhrn-pill">✦ Cerebras AI Extraction</span>
+      <span class="jhrn-pill">✦ ~16 KB Widget</span>
     </div>
   </div>
-  <div class="card">
+  <div class="jhrn-card">
     <h2 style="font-size:17px;margin-bottom:9px">Embed in 3 steps</h2>
-    <p>1. Set <code>FAQS_URL</code> in the script to your GitHub raw faqs.json URL.</p>
-    <p>2. Paste the <code>&lt;style&gt;</code> block into <code>&lt;head&gt;</code>.</p>
-    <p>3. Paste <code>&lt;div id="bb-widget"&gt;</code> and the <code>&lt;script&gt;</code> before <code>&lt;/body&gt;</code>.</p>
+    <p>1. Set <span class="jhrn-code">JHRN_FAQS_URL</span> in the script to your GitHub raw faqs.json URL.</p>
+    <p>2. Paste the <span class="jhrn-code">&lt;style&gt;</span> block into <span class="jhrn-code">&lt;head&gt;</span>.</p>
+    <p>3. Paste <span class="jhrn-code">&lt;div id="jhrn-widget"&gt;</span> and the <span class="jhrn-code">&lt;script&gt;</span> before <span class="jhrn-code">&lt;/body&gt;</span>.</p>
   </div>
 </div>
+<!-- END DEMO PAGE -->
 
 <!-- ════════════════════════════════════════════════════════
-     WIDGET HTML — paste before </body>
+     WIDGET HTML
      ════════════════════════════════════════════════════════ -->
-<div id="bb-widget">
+<div id="jhrn-widget">
 
-  <button id="bb-btn" aria-label="Open Brahmaputra Board Assistant" aria-expanded="false">
-    <div id="bb-dot"></div>
-    <svg class="bic bic-chat" width="25" height="25" viewBox="0 0 25 25" fill="none">
+  <button id="jhrn-btn" aria-label="Open Brahmaputra Board Assistant" aria-expanded="false">
+    <div id="jhrn-dot"></div>
+    <svg class="jhrn-bic jhrn-bic-chat" width="25" height="25" viewBox="0 0 25 25" fill="none">
       <path d="M12.5 2C7 2 2.5 6.1 2.5 11.1c0 2.3.9 4.4 2.4 6l-1.4 4.4 4.3-1.3a10.6 10.6 0 004.7 1.1c5.5 0 10-4.1 10-9.1S18 2 12.5 2z" fill="white"/>
     </svg>
-    <svg class="bic bic-close" width="19" height="19" viewBox="0 0 19 19" fill="none">
+    <svg class="jhrn-bic jhrn-bic-close" width="19" height="19" viewBox="0 0 19 19" fill="none">
       <path d="M14.5 4.5l-10 10M4.5 4.5l10 10" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
     </svg>
   </button>
 
-  <div id="bb-panel" role="dialog" aria-modal="true" aria-label="Brahmaputra Board Assistant">
+  <div id="jhrn-panel" role="dialog" aria-modal="true" aria-label="Brahmaputra Board Assistant">
 
-    <div id="bb-hd">
-      <div class="hav">
-        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M8.5 1.5C5.19 1.5 2.5 3.86 2.5 6.75c0 1.6.73 3.04 1.9 4.03l-.9 3.22 3.36-1.01A7.4 7.4 0 008.5 13.5c3.31 0 6-2.36 6-5.25S11.81 1.5 8.5 1.5z" fill="white"/></svg>
+    <div id="jhrn-hd">
+      <div class="jhrn-hav">
+        <img src="icon.png" width="42" height="42" style="width:100%;height:100%;object-fit:cover;">
       </div>
-      <div id="bb-hi">
-        <div id="bb-hn">Brahmaputra Board Assistant</div>
-        <div id="bb-hs"><span class="sdot"></span><span id="bb-status">Loading knowledge base…</span></div>
-        <div id="bb-updated"></div>
+      <div id="jhrn-hi">
+        <div id="jhrn-hn">Jharna - AI Assistant</div>
+        <div id="jhrn-hs"><span class="jhrn-sdot"></span><span id="jhrn-status">Loading knowledge base…</span></div>
+        <div id="jhrn-updated"></div>
       </div>
-      <button id="bb-clr" title="Clear chat" aria-label="Clear conversation">
+      <button id="jhrn-clr" title="Close chat" aria-label="Close conversation">
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1 1l10 10M11 1L1 11" stroke="#86868b" stroke-width="1.7" stroke-linecap="round"/></svg>
       </button>
     </div>
 
-    <div id="bb-sq" style="display:none">
-      <!-- chips populated dynamically from FAQ data -->
-    </div>
+    <div id="jhrn-sq" style="display:none"></div>
 
-    <div id="bb-msgs" role="log" aria-live="polite">
-      <!-- Loading state -->
-      <div id="bb-loading">
-        <div class="bb-spinner"></div>
-        <p>Loading knowledge base…</p>
-      </div>
-      <!-- Error state -->
-      <div id="bb-err">
-        <p>⚠️ Could not load the knowledge base.<br>Please try again or visit<br><a href="https://brahmaputraboard.gov.in" target="_blank" rel="noopener" style="color:#0071e3">brahmaputraboard.gov.in</a></p>
-        <button id="bb-retry">Retry</button>
-      </div>
-      <!-- Welcome (shown after load) -->
-      <div id="bb-wl">
-        <div class="wico">
-          <svg width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M12.5 2C7 2 2.5 6.1 2.5 11.1c0 2.3.9 4.4 2.4 6l-1.4 4.4 4.3-1.3a10.6 10.6 0 004.7 1.1c5.5 0 10-4.1 10-9.1S18 2 12.5 2zM12 8h1.2v4.2l3.3 2-.6 1-4-2.4V8z" fill="white"/></svg>
+    <div style="position:relative;flex:1;overflow:hidden;display:flex;flex-direction:column;">
+      <div id="jhrn-msgs" role="log" aria-live="polite">
+        <!-- Loading state -->
+        <div id="jhrn-loading">
+          <div class="jhrn-spinner"></div>
+          <p>Loading knowledge base…</p>
         </div>
-        <h3>Namaste! 🙏</h3>
-        <p>Ask me anything about the Brahmaputra Board.</p>
+        <!-- Error state -->
+        <div id="jhrn-err">
+          <p>⚠️ Could not load the knowledge base.<br>Please try again or visit<br><a href="https://brahmaputraboard.gov.in" target="_blank" rel="noopener" style="color:#0071e3">brahmaputraboard.gov.in</a></p>
+          <button id="jhrn-retry">Retry</button>
+        </div>
+        <!-- Welcome -->
+        <div id="jhrn-wl">
+          <div class="jhrn-wico">
+            <img src="icon.png" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <h3>Namaste! 🙏 <br>I'm Jharna, an AI assistant</h3>
+          <p>Ask me about Brahmaputra Board.</p>
+        </div>
       </div>
-    </div>
 
-    <div id="bb-ft">
-      <div id="bb-ir">
-        <textarea id="bb-in" placeholder="Ask about the Brahmaputra Board…" rows="1" aria-label="Type your question" disabled></textarea>
-        <button id="bb-snd" disabled aria-label="Send">
-          <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M12 6.5L1 1l2 5.5L1 12l11-5.5z" fill="white"/></svg>
-        </button>
+      <button id="jhrn-scroll-btn" aria-label="Scroll to bottom">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M8 3v10M3 8l5 5 5-5" stroke="#1d1d1f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <!-- Floating pill input -->
+      <div id="jhrn-ft">
+        <div id="jhrn-ir">
+          <textarea id="jhrn-in" placeholder="How can I help you today?" rows="1" aria-label="Type your question" disabled></textarea>
+          <button id="jhrn-mic" aria-label="Dictate" title="Speak your question">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6e6e73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="2" width="6" height="12" rx="3"/>
+              <path d="M5 10a7 7 0 0 0 14 0"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="9" y1="22" x2="15" y2="22"/>
+            </svg>
+          </button>
+          <button id="jhrn-snd" disabled aria-label="Send">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </button>
+        </div>
+        <div id="jhrn-cr">Jharna can make mistakes. Kindly double-check responses.</div>
       </div>
-      <div id="bb-cr">Brahmaputra Board · Ministry of Jal Shakti · Govt. of India</div>
     </div>
 
   </div>
@@ -260,303 +348,452 @@ code{background:#f2f2f7;padding:2px 6px;border-radius:5px;font-size:12px}
 <!-- END WIDGET HTML -->
 
 <!-- ════════════════════════════════════════════════════════
-     WIDGET SCRIPT — paste just before </body>
+     WIDGET SCRIPT
      ════════════════════════════════════════════════════════ -->
 <script>
 (function(){
 'use strict';
 
-/* ─────────────────────────────────────────────────────────
-   CONFIG
-   Replace FAQS_URL with your GitHub raw content URL:
-   https://raw.githubusercontent.com/YOUR_ORG/YOUR_REPO/main/data/faqs.json
-   ───────────────────────────────────────────────────────── */
-var FAQS_URL = 'https://raw.githubusercontent.com/sambitpoddar/brahmaputraboard/main/data/faqs.json';
+/* ── CONFIG ── */
+var JHRN_FAQS_URL     = 'https://raw.githubusercontent.com/sambitpoddar/brahmaputraboard/refs/heads/main/data/faqs.json';
+var JHRN_FAQS_URL_CDN = 'https://cdn.jsdelivr.net/gh/sambitpoddar/brahmaputraboard@main/data/faqs.json';
+var JHRN_CF_MODEL     = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
+var JHRN_CF_ENDPOINT  = 'https://bb-ai-proxy.noisefirehero.workers.dev';
 
-/* Fallback URL using jsDelivr CDN (better caching/CORS) — optional */
-var FAQS_URL_CDN = 'https://cdn.jsdelivr.net/gh/sambitpoddar/brahmaputraboard@main/data/faqs.json';
+/* ── STATE ── */
+var jhrn_KB     = [];
+var jhrn_meta   = {};
+var jhrn_isOpen = false;
+var jhrn_recog  = null;
+var jhrn_micOn  = false;
 
-/* Similarity threshold for fuzzy FAQ matching (0–1) */
-var MATCH_THR = 0.18;
+/* ── DOM REFS ── */
+var jhrn_btn     = document.getElementById('jhrn-btn');
+var jhrn_panel   = document.getElementById('jhrn-panel');
+var jhrn_msgs    = document.getElementById('jhrn-msgs');
+var jhrn_loading = document.getElementById('jhrn-loading');
+var jhrn_errDiv  = document.getElementById('jhrn-err');
+var jhrn_welcome = document.getElementById('jhrn-wl');
+var jhrn_inp     = document.getElementById('jhrn-in');
+var jhrn_snd     = document.getElementById('jhrn-snd');
+var jhrn_clr     = document.getElementById('jhrn-clr');
+var jhrn_mic     = document.getElementById('jhrn-mic');
+var jhrn_sqBar   = document.getElementById('jhrn-sq');
+var jhrn_status  = document.getElementById('jhrn-status');
+var jhrn_updated = document.getElementById('jhrn-updated');
+var jhrn_retry   = document.getElementById('jhrn-retry');
 
-/* ─────────────────────────────────────────────────────────
-   STATE
-   ───────────────────────────────────────────────────────── */
-var KB = [];       // loaded FAQ array
-var meta = {};     // meta from faqs.json
-var isOpen = false;
+var jhrn_scrollBtn = document.getElementById('jhrn-scroll-btn');
 
-/* ─────────────────────────────────────────────────────────
-   DOM REFS
-   ───────────────────────────────────────────────────────── */
-var btn     = document.getElementById('bb-btn');
-var panel   = document.getElementById('bb-panel');
-var msgs    = document.getElementById('bb-msgs');
-var loading = document.getElementById('bb-loading');
-var errDiv  = document.getElementById('bb-err');
-var welcome = document.getElementById('bb-wl');
-var inp     = document.getElementById('bb-in');
-var snd     = document.getElementById('bb-snd');
-var clr     = document.getElementById('bb-clr');
-var sqBar   = document.getElementById('bb-sq');
-var status  = document.getElementById('bb-status');
-var updated = document.getElementById('bb-updated');
-var retry   = document.getElementById('bb-retry');
+jhrn_msgs.addEventListener('scroll', function() {
+  var distFromBottom = jhrn_msgs.scrollHeight - jhrn_msgs.scrollTop - jhrn_msgs.clientHeight;
+  jhrn_scrollBtn.style.display = distFromBottom > 80 ? 'flex' : 'none';
+});
 
-/* ─────────────────────────────────────────────────────────
-   LOAD FAQS FROM GITHUB
-   ───────────────────────────────────────────────────────── */
-function loadFAQs(url) {
-  loading.style.display = 'flex';
-  errDiv.style.display  = 'none';
-  welcome.style.display = 'none';
+jhrn_scrollBtn.addEventListener('click', function() {
+  jhrn_msgs.scrollTo({ top: jhrn_msgs.scrollHeight, behavior: 'smooth' });
+});
 
-  fetch(url + '?t=' + Date.now())   // cache-bust
+/* ── LOAD FAQs ── */
+function jhrn_loadFAQs(url) {
+  jhrn_loading.style.display = 'flex';
+  jhrn_errDiv.style.display  = 'none';
+  jhrn_welcome.style.display = 'none';
+
+  fetch(url + '?t=' + Date.now())
     .then(function(r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     })
     .then(function(data) {
-      KB   = data.faqs   || [];
-      meta = data.meta   || {};
+      jhrn_KB   = data.faqs || [];
+      jhrn_meta = data.meta || {};
 
-      loading.style.display = 'none';
-      welcome.style.display = 'flex';
+      jhrn_loading.style.display = 'none';
+      jhrn_welcome.style.display = 'flex';
+      jhrn_status.textContent    = 'Online';
 
-      status.textContent = 'Online · ' + KB.length + ' answers';
-
-      // Show last-updated
-      if (meta.last_updated) {
-        var d = new Date(meta.last_updated);
-        var fmt = d.toLocaleDateString('en-IN', {day:'numeric',month:'short',year:'numeric'});
-        updated.textContent = 'Updated ' + fmt;
-        updated.style.display = 'block';
-      }
-
-      // Enable input
-      inp.disabled = false;
-      snd.disabled = !inp.value.trim();
-      inp.placeholder = 'Ask about the Brahmaputra Board…';
-
-      // Build suggestion chips from first few unique topic FAQs
-      buildChips();
+      jhrn_inp.disabled = false;
+      jhrn_snd.disabled = !jhrn_inp.value.trim();
+      jhrn_inp.placeholder = 'How can I help you today?';
+      jhrn_buildChips();
     })
     .catch(function(err) {
       console.warn('Primary URL failed, trying CDN:', err);
-      if (url !== FAQS_URL_CDN) {
-        loadFAQs(FAQS_URL_CDN);
+      if (url !== JHRN_FAQS_URL_CDN) {
+        jhrn_loadFAQs(JHRN_FAQS_URL_CDN);
       } else {
-        loading.style.display = 'none';
-        errDiv.style.display  = 'flex';
-        status.textContent    = 'Offline';
-        inp.placeholder       = 'Knowledge base unavailable…';
+        jhrn_loading.style.display = 'none';
+        jhrn_errDiv.style.display  = 'flex';
+        jhrn_status.textContent    = 'Offline';
+        jhrn_inp.placeholder       = 'Knowledge base unavailable…';
       }
     });
 }
 
-/* ─────────────────────────────────────────────────────────
-   BUILD SUGGESTION CHIPS
-   Pick 6 representative questions that span different topics
-   ───────────────────────────────────────────────────────── */
-var CHIP_QDEFS = [
+/* ── SUGGESTION CHIPS ── */
+var JHRN_CHIP_SEEDS = [
   'What is the Brahmaputra Board',
   'flood control',
-  'NEHARI',
-  'RTI',
-  'contact',
+  'NEHARI project',
+  'RTI application',
+  'contact office',
   'ongoing projects',
   'tenders',
-  'jurisdiction'
+  'jurisdiction area'
 ];
 
-function buildChips() {
-  sqBar.innerHTML = '';
-  var used = [];
+function jhrn_buildChips() {
+  jhrn_sqBar.innerHTML = '';
+  var jhrn_used = [];
 
-  CHIP_QDEFS.forEach(function(seed) {
-    var best = findBestMatch(seed);
-    if (!best) return;
-    // Don't duplicate
-    if (used.indexOf(best.question) !== -1) return;
-    used.push(best.question);
+  JHRN_CHIP_SEEDS.forEach(function(seed) {
+    var best = jhrn_fastMatch(seed);
+    if (!best || jhrn_used.indexOf(best.question) !== -1) return;
+    jhrn_used.push(best.question);
 
-    // Shorten label
     var label = best.question.length > 30
       ? best.question.substring(0, 28) + '…'
       : best.question;
 
     var b = document.createElement('button');
-    b.className   = 'sq';
+    b.className   = 'jhrn-sq-chip';
     b.textContent = label;
     b.dataset.q   = best.question;
     b.addEventListener('click', function(){
-      inp.value = this.dataset.q;
-      inp.dispatchEvent(new Event('input'));
-      send();
+      jhrn_inp.value = this.dataset.q;
+      jhrn_inp.dispatchEvent(new Event('input'));
+      jhrn_send();
     });
-    sqBar.appendChild(b);
+    jhrn_sqBar.appendChild(b);
   });
 
-  sqBar.style.display = KB.length ? 'flex' : 'none';
+  jhrn_sqBar.style.display = jhrn_KB.length ? 'flex' : 'none';
 }
 
-/* ─────────────────────────────────────────────────────────
-   SEARCH / MATCHING ENGINE
-   Jaccard similarity on word tokens
-   ───────────────────────────────────────────────────────── */
-function tok(s) {
-  return new Set(s.toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean));
-}
-
-function jaccard(a, b) {
-  var ta = tok(a), tb = tok(b);
-  var inter = 0;
-  ta.forEach(function(w){ if(tb.has(w)) inter++; });
-  var union = ta.size + tb.size - inter;
-  return union ? inter / union : 0;
-}
-
-function scoreEntry(query, entry) {
-  // Score against question, also check a slice of answer
-  var qs = jaccard(query, entry.question);
-  var as = jaccard(query, entry.answer.substring(0, 120)) * 0.35;
-  return Math.max(qs, qs * 0.7 + as);
-}
-
-function findBestMatch(query) {
-  if (!KB.length) return null;
+/* ── FAST LOCAL MATCH ── */
+function jhrn_fastMatch(query) {
+  if (!jhrn_KB.length) return null;
+  var qt = query.toLowerCase().split(/\s+/);
   var best = null, bs = 0;
-  KB.forEach(function(e) {
-    var s = scoreEntry(query, e);
+  jhrn_KB.forEach(function(e) {
+    var count = 0;
+    qt.forEach(function(w){ if (e.question.toLowerCase().indexOf(w) !== -1) count++; });
+    var s = count / qt.length;
     if (s > bs) { bs = s; best = e; }
   });
-  return (bs >= MATCH_THR) ? best : null;
+  return (bs > 0.3) ? best : null;
 }
 
-/* ─────────────────────────────────────────────────────────
-   TOGGLE
-   ───────────────────────────────────────────────────────── */
-function toggle() {
-  isOpen = !isOpen;
-  btn.classList.toggle('open', isOpen);
-  panel.classList.toggle('open', isOpen);
-  btn.setAttribute('aria-expanded', isOpen);
-  if (isOpen) setTimeout(function(){ if(!inp.disabled) inp.focus(); }, 380);
+/* ── BUILD CONTEXT ── */
+function jhrn_buildContext(query) {
+  var qLower = query.toLowerCase().replace(/[^a-z0-9 ]/g,' ');
+  var qwords = qLower.split(/\s+/).filter(function(w){ return w.length > 1; });
+
+  var jhrn_synonyms = {
+    'head': ['chairman','chairperson','director','chief'],
+    'boss': ['chairman','director','chief'],
+    'leader': ['chairman','director'],
+    'name': ['chairman','director','officer','member'],
+    'who': ['chairman','director','officer','appointed'],
+    'chief': ['chairman','director'],
+    'contact': ['phone','telephone','email','address','fax','number'],
+    'phone': ['telephone','contact','number','0361'],
+    'address': ['headquarters','hq','guwahati','located'],
+    'location': ['address','headquarters','guwahati'],
+    'flood': ['flood','inundation','embankment','erosion','forecasting'],
+    'warning': ['forecast','alert','flood','bulletin'],
+    'project': ['project','scheme','work','construction','nehari'],
+    'money': ['budget','fund','cost','expenditure','crore'],
+    'apply': ['application','procedure','process','submit'],
+    'rti': ['rti','right to information','information act'],
+    'tender': ['tender','bid','procurement','contract','nit'],
+    'salary': ['pay','remuneration','grade','scale'],
+    'staff': ['officer','employee','staff','personnel','member']
+  };
+
+  var expanded = qwords.slice();
+  qwords.forEach(function(w) {
+    if (jhrn_synonyms[w]) {
+      jhrn_synonyms[w].forEach(function(s){ expanded.push(s); });
+    }
+  });
+
+  var scored = jhrn_KB.map(function(e) {
+    var qtext = e.question.toLowerCase();
+    var atext = e.answer.toLowerCase();
+    var score = 0;
+
+    expanded.forEach(function(w) {
+      var re = new RegExp('\\b' + w + '\\b', 'g');
+      score += (qtext.match(re) || []).length * 3;
+      score += (atext.match(re) || []).length * 1;
+    });
+
+    qwords.forEach(function(w) {
+      if (qtext.indexOf(w) !== -1) score += 1;
+    });
+
+    return { entry: e, score: score };
+  });
+
+  scored.sort(function(a, b){ return b.score - a.score; });
+  var top = scored.slice(0, 20).filter(function(x){ return x.score > 0; });
+  if (top.length === 0) top = scored.slice(0, 20);
+
+  return top.map(function(x) {
+    return 'Q: ' + x.entry.question + '\nA: ' + x.entry.answer;
+  }).join('\n\n');
 }
-btn.addEventListener('click', toggle);
+
+/* ── GREETING ── */
+var JHRN_GREETS = ['hi','hello','hey','namaste','namaskar','good morning','good afternoon','good evening'];
+var JHRN_GREET_R = 'Namaste! \uD83D\uDE4F How can I help you?';
+
+function jhrn_isGreeting(q) {
+  var qn = q.trim().toLowerCase();
+  return JHRN_GREETS.some(function(g){ return qn === g || qn.startsWith(g+' ') || qn.endsWith(' '+g); });
+}
+
+/* ── RENDER HELPERS ── */
+function jhrn_esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function jhrn_autoLink(text) {
+  // Full URLs
+  text = text.replace(/(https?:\/\/[^\s<>"']+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // www. links without http
+  text = text.replace(/(?<!["'=])(www\.[^\s<>"']+)/g, '<a href="https://$1" target="_blank" rel="noopener">$1</a>');
+  // Email addresses
+  text = text.replace(/([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})/g, '<a href="mailto:$1">$1</a>');
+  // Phone numbers
+  text = text.replace(/(\+?[\d][\d\s\-]{7,}[\d])/g, '<a href="tel:$1">$1</a>');
+  return text;
+}
+
+function jhrn_renderText(raw) {
+  var escaped = jhrn_esc(raw).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  return jhrn_autoLink(escaped);
+}
+
+/* ── LLM CALL ── */
+function jhrn_askLLM(question, bubbleEl) {
+  var context = jhrn_buildContext(question);
+
+  var systemPrompt = 'You are the official AI assistant for the Brahmaputra Board, a statutory body under the Ministry of Jal Shakti, Government of India.\n\nUse the information below to answer the user\'s question. Be concise and direct — give the answer straight, do not mention FAQs, context, or any internal mechanism. Never say phrases like "the provided FAQ context" or "Q3" or "based on the context". Just answer naturally as a helpful assistant would.\n\nIf the information below does not contain the answer, say politely that you don\'t have that specific detail and suggest visiting brahmaputraboard.gov.in or calling 0361-2300128. Do NOT make up any information.\n\nINFORMATION:\n' + context;
+
+  fetch(JHRN_CF_ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: JHRN_CF_MODEL,
+      stream: true,
+      messages: [
+        { role: 'system', content: systemPrompt },
+        { role: 'user',   content: question }
+      ]
+    })
+  })
+  .then(function(res) {
+    if (!res.ok) throw new Error('API error ' + res.status);
+    var reader  = res.body.getReader();
+    var decoder = new TextDecoder();
+    var buffer  = '';
+    bubbleEl.innerHTML = '';
+
+    function pump() {
+      return reader.read().then(function(result) {
+        if (result.done) return;
+        buffer += decoder.decode(result.value, { stream: true });
+        var lines = buffer.split('\n');
+        buffer = lines.pop();
+
+        lines.forEach(function(line) {
+          line = line.trim();
+          if (!line.startsWith('data: ')) return;
+          var payload = line.slice(6);
+          if (payload === '[DONE]') {
+            bubbleEl.innerHTML = jhrn_renderText(bubbleEl._jhrnRaw || '');
+            return;
+          }
+          try {
+            var chunk = JSON.parse(payload);
+            var delta = (chunk.choices[0].delta || {}).content || '';
+            if (delta) {
+              bubbleEl._jhrnRaw = (bubbleEl._jhrnRaw || '') + delta;
+              bubbleEl.innerHTML = jhrn_renderText(bubbleEl._jhrnRaw);
+              jhrn_msgs.scrollTop = jhrn_msgs.scrollHeight;
+            }
+          } catch(e) {}
+        });
+        return pump();
+      });
+    }
+    return pump();
+  })
+  .catch(function(err) {
+    console.error('LLM error:', err);
+    bubbleEl.innerHTML = 'Sorry, I could not connect to the AI service. Please visit <a href="https://brahmaputraboard.gov.in" target="_blank" rel="noopener">brahmaputraboard.gov.in</a> or call <strong>0361-2300128</strong>.';
+  });
+}
+
+/* ── TOGGLE ── */
+function jhrn_toggle() {
+  jhrn_isOpen = !jhrn_isOpen;
+  jhrn_btn.classList.toggle('jhrn-open', jhrn_isOpen);
+  jhrn_panel.classList.toggle('jhrn-open', jhrn_isOpen);
+  jhrn_btn.setAttribute('aria-expanded', jhrn_isOpen);
+  if (jhrn_isOpen) setTimeout(function(){ if(!jhrn_inp.disabled) jhrn_inp.focus(); }, 380);
+}
+jhrn_btn.addEventListener('click', jhrn_toggle);
 document.addEventListener('click', function(e){
-  if(isOpen && !panel.contains(e.target) && !btn.contains(e.target)) toggle();
+  if(jhrn_isOpen && !jhrn_panel.contains(e.target) && !jhrn_btn.contains(e.target)) jhrn_toggle();
 });
 
-/* ─────────────────────────────────────────────────────────
-   INPUT
-   ───────────────────────────────────────────────────────── */
-inp.addEventListener('input', function(){
+/* ── INPUT EVENTS ── */
+jhrn_inp.addEventListener('input', function(){
   this.style.height = 'auto';
   this.style.height = Math.min(this.scrollHeight, 94) + 'px';
-  snd.disabled = !this.value.trim() || inp.disabled;
+  jhrn_snd.disabled = !this.value.trim() || jhrn_inp.disabled;
 });
-inp.addEventListener('keydown', function(e){
-  if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); if(!snd.disabled) send(); }
+jhrn_inp.addEventListener('keydown', function(e){
+  if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); if(!jhrn_snd.disabled) jhrn_send(); }
 });
-snd.addEventListener('click', send);
-clr.addEventListener('click', function(){
-  // Remove all conversation bubbles but keep structural divs
-  Array.from(msgs.children).forEach(function(el){
-    if(!['bb-loading','bb-err','bb-wl'].includes(el.id)) el.remove();
+jhrn_snd.addEventListener('click', jhrn_send);
+jhrn_clr.addEventListener('click', jhrn_toggle);
+jhrn_retry.addEventListener('click', function(){ jhrn_loadFAQs(JHRN_FAQS_URL); });
+
+/* ── DICTATION ── */
+(function(){
+  var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    jhrn_mic.style.display = 'none';
+    return;
+  }
+
+  jhrn_recog = new SpeechRecognition();
+  jhrn_recog.continuous = false;
+  jhrn_recog.interimResults = true;
+  jhrn_recog.lang = 'en-IN';
+
+  var jhrn_finalTranscript = '';
+
+  jhrn_recog.onstart = function() {
+    jhrn_micOn = true;
+    jhrn_mic.classList.add('jhrn-mic-active');
+    jhrn_inp.placeholder = 'Listening…';
+  };
+
+  jhrn_recog.onresult = function(e) {
+    var interim = '';
+    jhrn_finalTranscript = '';
+    for (var i = e.resultIndex; i < e.results.length; i++) {
+      if (e.results[i].isFinal) {
+        jhrn_finalTranscript += e.results[i][0].transcript;
+      } else {
+        interim += e.results[i][0].transcript;
+      }
+    }
+    jhrn_inp.value = jhrn_finalTranscript || interim;
+    jhrn_inp.dispatchEvent(new Event('input'));
+  };
+
+  jhrn_recog.onend = function() {
+    jhrn_micOn = false;
+    jhrn_mic.classList.remove('jhrn-mic-active');
+    jhrn_inp.placeholder = 'How can I help you today?';
+    if (jhrn_finalTranscript.trim()) {
+      jhrn_snd.disabled = false;
+    }
+  };
+
+  jhrn_recog.onerror = function(e) {
+    jhrn_micOn = false;
+    jhrn_mic.classList.remove('jhrn-mic-active');
+    jhrn_inp.placeholder = 'How can I help you today?';
+    console.warn('Speech recognition error:', e.error);
+  };
+
+  jhrn_mic.addEventListener('click', function() {
+    if (jhrn_inp.disabled) return;
+    if (jhrn_micOn) {
+      jhrn_recog.stop();
+    } else {
+      jhrn_finalTranscript = '';
+      jhrn_recog.start();
+    }
   });
-  welcome.style.display = 'flex';
-});
-retry.addEventListener('click', function(){ loadFAQs(FAQS_URL); });
+})();
 
-/* ─────────────────────────────────────────────────────────
-   SEND
-   ───────────────────────────────────────────────────────── */
+/* ── SEND ── */
+function jhrn_send() {
+  var t = jhrn_inp.value.trim();
+  if (!t || jhrn_inp.disabled) return;
 
-var GREETS = ['hi','hello','hey','namaste','namaskar','good morning','good afternoon','good evening','hiya','howdy'];
-var GREET_R = 'Namaste! 🙏 Welcome to the <strong>Brahmaputra Board Assistant</strong>.<br><br>I can help you with information about flood control, NEHARI, projects, RTI, tenders, contacts, and more.<br><br>What would you like to know?';
+  // Stop mic if active
+  if (jhrn_micOn && jhrn_recog) jhrn_recog.stop();
 
-var FALLS = [
-  'I couldn\'t find a specific answer to that. Please visit <a href="https://brahmaputraboard.gov.in" target="_blank" rel="noopener">brahmaputraboard.gov.in</a> or call <strong>0361-2300128</strong>.',
-  'For more details, check the official site: <a href="https://brahmaputraboard.gov.in" target="_blank" rel="noopener">brahmaputraboard.gov.in</a> or email <strong>secy-bbrd[at]gov[dot]in</strong>.',
-  'I don\'t have that specific information. Contact Brahmaputra Board HQ: 📞 <strong>0361-2300128</strong>, Guwahati.'
-];
-var fi = 0;
+  jhrn_welcome.style.display = 'none';
+  jhrn_addBubble('user', jhrn_esc(t));
+  jhrn_inp.value = ''; jhrn_inp.style.height = 'auto'; jhrn_snd.disabled = true;
 
-function answer(q) {
-  var qn = q.trim().toLowerCase();
-
-  // Greeting check
-  for (var i = 0; i < GREETS.length; i++) {
-    if (qn === GREETS[i] || qn.startsWith(GREETS[i]+' ') || qn.endsWith(' '+GREETS[i]))
-      return { html: GREET_R, src: null };
+  if (jhrn_isGreeting(t)) {
+    var te = jhrn_showTyping();
+    setTimeout(function(){
+      jhrn_rem(te);
+      jhrn_addBubble('bot', JHRN_GREET_R);
+      jhrn_snd.disabled = !jhrn_inp.value.trim();
+    }, 80 + Math.random()*100);
+    return;
   }
 
-  var match = findBestMatch(q);
-  if (match) {
-    var html = esc(match.answer)
-      .replace(/\n\n/g,'<br><br>').replace(/\n/g,'<br>')
-      .replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>');
-    var src = match.source && match.source !== 'seed'
-      ? '<span class="src">Source: <a href="'+esc(match.source)+'" target="_blank" rel="noopener">'+esc(match.source.replace('https://brahmaputraboard.gov.in','brahmaputraboard.gov.in'))+'</a></span>'
-      : '';
-    return { html: html + src, src: match.source };
-  }
+  var botBubble = jhrn_addStreamingBubble();
+  jhrn_askLLM(t, botBubble);
 
-  return { html: FALLS[(fi++)%FALLS.length], src: null };
+  setTimeout(function(){ jhrn_snd.disabled = !jhrn_inp.value.trim(); }, 200);
 }
 
-function send() {
-  var t = inp.value.trim();
-  if (!t || inp.disabled) return;
+/* ── BUBBLE HELPERS ── */
+var JHRN_BOT_IC = '<img src="icon.png" width="32" height="32" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">';
 
-  welcome.style.display = 'none';
-  addBubble('user', esc(t));
-
-  inp.value = ''; inp.style.height = 'auto'; snd.disabled = true;
-
-  var te = showTyping();
-  setTimeout(function(){
-    rem(te);
-    var res = answer(t);
-    addBubble('bot', res.html);
-  }, 70 + Math.random()*130);
-}
-
-/* ─────────────────────────────────────────────────────────
-   BUBBLE HELPERS
-   ───────────────────────────────────────────────────────── */
-var BOT_IC = '<svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M5.5 1C3.01 1 1 2.68 1 4.75c0 1.03.44 1.97 1.16 2.66L1.5 9.5l2.62-.79A5.6 5.6 0 005.5 9c2.49 0 4.5-1.68 4.5-3.75S7.99 1 5.5 1z" fill="white"/></svg>';
-
-function addBubble(role, html) {
-  var row = document.createElement('div'); row.className = 'br ' + role;
+function jhrn_addBubble(role, html) {
+  var row = document.createElement('div'); row.className = 'jhrn-br jhrn-' + role;
   if (role === 'bot') {
-    var av = document.createElement('div'); av.className = 'rav'; av.innerHTML = BOT_IC;
+    var av = document.createElement('div'); av.className = 'jhrn-rav'; av.innerHTML = JHRN_BOT_IC;
     row.appendChild(av);
   }
-  var b = document.createElement('div'); b.className = 'bb'; b.innerHTML = html;
+  var b = document.createElement('div'); b.className = 'jhrn-bb'; b.innerHTML = html;
   row.appendChild(b);
-  msgs.appendChild(row);
-  requestAnimationFrame(function(){ msgs.scrollTop = msgs.scrollHeight; });
+  jhrn_msgs.appendChild(row);
+  requestAnimationFrame(function(){ jhrn_msgs.scrollTop = jhrn_msgs.scrollHeight; });
+  return b;
 }
 
-function showTyping() {
-  var row = document.createElement('div'); row.className = 'br bot';
-  var av = document.createElement('div'); av.className = 'rav'; av.innerHTML = BOT_IC;
-  var ty = document.createElement('div'); ty.className = 'ty';
+function jhrn_addStreamingBubble() {
+  var row = document.createElement('div'); row.className = 'jhrn-br jhrn-bot';
+  var av  = document.createElement('div'); av.className = 'jhrn-rav'; av.innerHTML = JHRN_BOT_IC;
+  var b   = document.createElement('div'); b.className = 'jhrn-bb';
+  b.innerHTML = '<div class="jhrn-ty"><span></span><span></span><span></span></div>';
+  row.appendChild(av); row.appendChild(b);
+  jhrn_msgs.appendChild(row);
+  requestAnimationFrame(function(){ jhrn_msgs.scrollTop = jhrn_msgs.scrollHeight; });
+  return b;
+}
+
+function jhrn_showTyping() {
+  var row = document.createElement('div'); row.className = 'jhrn-br jhrn-bot';
+  var av  = document.createElement('div'); av.className = 'jhrn-rav'; av.innerHTML = JHRN_BOT_IC;
+  var ty  = document.createElement('div'); ty.className = 'jhrn-ty';
   ty.innerHTML = '<span></span><span></span><span></span>';
-  row.appendChild(av); row.appendChild(ty); msgs.appendChild(row);
-  requestAnimationFrame(function(){ msgs.scrollTop = msgs.scrollHeight; });
+  row.appendChild(av); row.appendChild(ty);
+  jhrn_msgs.appendChild(row);
+  requestAnimationFrame(function(){ jhrn_msgs.scrollTop = jhrn_msgs.scrollHeight; });
   return row;
 }
 
-function rem(el){ if(el&&el.parentNode) el.parentNode.removeChild(el); }
-function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function jhrn_rem(el){ if(el&&el.parentNode) el.parentNode.removeChild(el); }
 
-/* ─────────────────────────────────────────────────────────
-   INIT
-   ───────────────────────────────────────────────────────── */
-loadFAQs(FAQS_URL);
+/* ── INIT ── */
+jhrn_loadFAQs(JHRN_FAQS_URL);
 
 })();
 </script>
